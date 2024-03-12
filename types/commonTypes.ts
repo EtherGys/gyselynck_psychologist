@@ -1,6 +1,7 @@
-interface buttonProps {
+interface contentProps {
     content: string
 }
+
 
 interface cardProps {
     title: string
@@ -9,10 +10,16 @@ interface cardProps {
     alt : string
 }
 
+interface leafProps {
+    src : string
+    alt : string
+}
+
 interface greenFrameProps {
-    whiteTitle: string
-    greenTitle: string
+    whiteTitle?: string
+    greenTitle?: string
     contentp1: string
     contentp2: string
+    buttonTitle: string
 
 }

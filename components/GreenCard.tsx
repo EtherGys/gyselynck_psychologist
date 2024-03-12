@@ -1,10 +1,10 @@
 import React from 'react'
 import GreenBorderButton from './buttons/GreenBorderButton'
 
-function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2 }: greenFrameProps) {
+function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2, buttonTitle }: greenFrameProps) {
     return (
         <div>
-            <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-3xl font-extrabold'>
+            <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-3xl font-extrabold my-10'>
                 <span className='underline underline-offset-8 decoration-8 decoration-[#BFB55B]/50'>
                     {whiteTitle}
                 </span>
@@ -22,7 +22,7 @@ function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2 }: greenFrameP
                     </p>
                 </div>
                 <div className=" m-auto p-4 flex flex-col justify-between leading-normal">
-                    <GreenBorderButton content="En savoir plus" />
+                    <GreenBorderButton content={buttonTitle} />
                 </div>
             </div>
         </div>

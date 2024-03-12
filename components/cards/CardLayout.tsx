@@ -4,10 +4,10 @@ import Card from './Card'
 function CardLayout() {
     return (
         <div className='relative'>
-            <div className=' rounded-2xl w-[80%] mx-auto lg:max-h-[400px] overflow-hidden shadow-lg my-12'>
+            <div className=' rounded-2xl w-[80%] mx-auto lg:max-h-[400px] overflow-hidden shadow-lg my-20'>
                 <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 h-[50%]' />
             </div>
-            <div className='absolute top-40 z-10 flex flex-row justify-around w-full'>
+            <div className='absolute top-48 z-10 flex flex-row justify-around w-[80%] right-32'>
                 <Card
                     title="Consultation adulte"
                     content="Je vous reçois pour des entretiens individuels. La fréquence et la durée du suivi resteront à définir ensemble. La thérapie se déroule dans une relation dynamique et interactive."
