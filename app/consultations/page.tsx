@@ -56,6 +56,33 @@ function ConsultationPage() {
           </div>
         </div>
       </div>
+      {/* Check border */}
+      <div className='flex flex-row justify-center my-20 border '>
+        <div className=' bottom-48 z-10 flex flex-row justify-around w-[80%] border'>
+          <div className="max-w-sm overflow-hidden shadow-lg bg-white p-8 rounded-2xl">
+            <div className="py-4">
+              <h4 className="font-bold text-xl mb-2 text-center">
+                Je suis inscrite à la Commission des Psychologues (912231069)
+              </h4>
+              <p className="text-gray-700 text-xl text-center mt-10">
+                Qui autorise le port du titre de psychologue et dispose d'un visa autorisant l'exercice de la profession de psychologue clinicien attribué par le SPF Santé Publique () ainsi que d'un agrément () de la Fédération Wallonie-Bruxelles autorisant le titre de psychologue clinicien.
+              </p>
+            </div>
+          </div>
+          <div className=' bottom-48 z-10 flex flex-row justify-around w-[80%] border'>
+            <div className="max-w-sm overflow-hidden shadow-lg bg-white p-8 rounded-2xl">
+              <div className="py-4">
+                <h4 className="font-bold text-xl mb-2 text-center">
+                  Je suis inscrite à la Commission des Psychologues (912231069)
+                </h4>
+                <p className="text-gray-700 text-xl text-center mt-10">
+                  Qui autorise le port du titre de psychologue et dispose d'un visa autorisant l'exercice de la profession de psychologue clinicien attribué par le SPF Santé Publique () ainsi que d'un agrément () de la Fédération Wallonie-Bruxelles autorisant le titre de psychologue clinicien.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
