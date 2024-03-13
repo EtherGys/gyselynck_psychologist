@@ -45,7 +45,7 @@ function Footer() {
                             <p className="mb-4">
                                 <a href="/consultation">Consultations</a>
                             </p>
-                            <p>
+                            <p className="mb-4">
                                 <a href="/approche_acp">L'approche ACP</a>
                             </p>
                             <p>
