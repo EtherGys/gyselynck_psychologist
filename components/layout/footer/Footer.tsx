@@ -5,7 +5,7 @@ function Footer() {
         <div>
             {/* <!-- Footer container --> */}
             <footer
-                className="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+                className="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left font-roboto">
                 <div className="px-6 py-10 text-center md:text-left bg-[#E7A100] w-full">
                     <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <div className="">

@@ -10,7 +10,7 @@ function Card({ title, content, src, alt }: cardProps) {
                 <p className="text-gray-700 text-xl text-center">
                     {content}
                 </p>
-                <div className='text-center mt-6'>
+                <div className='text-center mt-8'>
                     <GrayBorderButton content="+ d'infos" />
                 </div>
             </div>

@@ -3,7 +3,7 @@ import GreenFullButton from './buttons/GreenFullButton'
 
 function MapLayout() {
   return (
-    <div className='mt-[300px] mb-40'>
+    <div className='mt-[300px] mb-40 font-roboto drop-shadow-lg '>
       <section className="bg-gray-100 box-shadow rounded-xl xl:w-[80%] m-auto">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           <div className='flex flex-row'>

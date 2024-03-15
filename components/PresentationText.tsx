@@ -5,7 +5,7 @@ import GrayBorderButton from './buttons/GrayBorderButton'
 function PresentationText() {
     return (
         <div className='flex flex-row justify-around my-20'>
-            <div className='my-auto w-[50%]'>
+            <div className='my-auto w-[50%] font-montserrat text-xl'>
                 <p>
                     Psychologue clinicienne agréée, je reçois des adultes et des adolescents à partir de 15 ans pour de consultations individuelles dans mon cabinet ou en vidéo-consultations via l'application intégrée de Doctoranytime.
                 </p>
@@ -18,7 +18,7 @@ function PresentationText() {
                     <GreenBorderButton content="L'approche ACP" />
                 </div>
             </div>
-            <div className='border'>
+            <div className=''>
                 <img src="/assets/images/doctor.jpg" className="h-[341px] w-[246px]" alt="Photo de la psychologue Éléonore Gyselynck" />
             </div>
         </div>

@@ -3,8 +3,8 @@ import GreenBorderButton from './buttons/GreenBorderButton'
 
 function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2, buttonTitle }: greenFrameProps) {
     return (
-        <div>
-            <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-3xl font-extrabold my-10'>
+        <div className='font-montserrat'>
+            <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-4xl font-semibold my-10'>
                 <span className='underline underline-offset-8 decoration-8 decoration-[#BFB55B]/50'>
                     {whiteTitle}
                 </span>
@@ -13,7 +13,7 @@ function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2, buttonTitle }
                 </span>
             </h3>
             <div className="max-w-sm w-full lg:max-w-[80%] lg:flex bg-[#689F38] rounded-2xl p-8 mt-14 mx-auto">
-                <div className="text-white h-48 lg:h-auto lg:w-[60%] flex-none  overflow-hidden" title="Woman holding a mug">
+                <div className="text-white h-48 lg:h-auto lg:w-[70%] flex-none overflow-hidden text-xl">
                     <p>
                         {contentp1}
                     </p>
