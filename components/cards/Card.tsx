@@ -11,7 +11,7 @@ function Card({ title, content, src, alt }: cardProps) {
                     {content}
                 </p>
                 <div className='text-center mt-8'>
-                    <GrayBorderButton content="+ d'infos" />
+                    <GrayBorderButton href="/consultations#consultation_type" content="+ d'infos" />
                 </div>
             </div>
         </div>

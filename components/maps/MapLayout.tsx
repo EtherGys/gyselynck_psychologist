@@ -1,10 +1,11 @@
 import React from 'react'
-import GreenFullButton from './buttons/GreenFullButton'
+import GreenFullButton from '../buttons/GreenFullButton'
+import GoogleMaps from './GoogleMaps'
 
 function MapLayout() {
   return (
     <div className='mt-[300px] mb-40 font-roboto drop-shadow-lg '>
-      <section className="bg-gray-100 box-shadow rounded-xl xl:w-[80%] m-auto">
+      <section className="bg-gray-200 box-shadow rounded-xl xl:w-[80%] m-auto">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           <div className='flex flex-row'>
             <div className="max-w-2xl lg:max-w-4xl flex flex-col items-center">
@@ -17,9 +18,9 @@ function MapLayout() {
             </div>
           </div>
           <div className="mt-16 lg:mt-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="flex flex-row justify-between">
               <div>
-                <div className="max-w-full mx-auto rounded-lg overflow-hidden">
+                <div className="mx-auto rounded-lg overflow-hidden">
                   <div className='flex flex-row'>
                     <div className='pt-6'>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
@@ -61,10 +62,7 @@ function MapLayout() {
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                {/* <iframe class="absolute top-0 left-0 w-full h-full"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
-                  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-                </iframe> */}
+                <GoogleMaps />
               </div>
             </div>
           </div>

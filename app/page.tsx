@@ -1,7 +1,7 @@
 import CardLayout from "@/components/cards/CardLayout";
 import GreenCard from "@/components/GreenCard";
 import HeroMenu from "@/components/HeroMenu";
-import MapLayout from "@/components/MapLayout";
+import MapLayout from "@/components/maps/MapLayout";
 import PresentationText from "@/components/PresentationText";
 import Image from "next/image";
 
@@ -11,9 +11,9 @@ export default function Home() {
       <HeroMenu />
       <div className="flex flex-col xl:w-[70%] mx-auto">
         <PresentationText />
-        <GreenCard buttonTitle="En savoir plus" whiteTitle="VENIR" greenTitle="EN CONSULTATION" contentp1="Je vous reçois dans le cadre d'une demande de soutien ponctuel ou d'un travail thérapeutique à plus long terme." contentp2="Mon approche, fondée sur le non-jugement et la construction d'une relation de confiance, vous promet un accueil sans distinction d'orientation sexuelle, de genre, d'appartenance religieuse ou culturelle."/>
-        <CardLayout/>
-        <MapLayout/>
+        <GreenCard buttonTitle="En savoir plus" whiteTitle="VENIR" greenTitle="EN CONSULTATION" contentp1="Je vous reçois dans le cadre d'une demande de soutien ponctuel ou d'un travail thérapeutique à plus long terme." contentp2="Mon approche, fondée sur le non-jugement et la construction d'une relation de confiance, vous promet un accueil sans distinction d'orientation sexuelle, de genre, d'appartenance religieuse ou culturelle." />
+        <CardLayout />
+        <MapLayout />
       </div>
     </div>
   );

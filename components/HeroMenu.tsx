@@ -23,7 +23,7 @@ function HeroMenu() {
                             </h3>
                             <div className='mt-6'>
 
-                                <GreenFullButton content="Prendre rendez-vous" />
+                                <GreenFullButton href='/rendez-vous' content="Prendre rendez-vous" />
                             </div>
                         </div>
                     </div>

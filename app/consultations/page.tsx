@@ -5,85 +5,153 @@ import React from 'react'
 
 function ConsultationPage() {
   return (
-    <div className='flex flex-col xl:w-[70%] mx-auto'>
-      <div className='relative xl:w-[70%]'>
+    <main className='flex flex-col xl:w-[70%] mx-auto'>
+      <div className='relative xl:w-[70%] mt-20'>
         <LeafImage src="assets/images/doctor.jpg" alt="Photo d'Éléonore Gyselynck" />
         <div className='absolute top-32 left-60'>
           <PageTitle content='Venir en consultation' />
         </div>
       </div>
-      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-4xl font-extrabold my-10 text-center'>
+      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-4xl font-semibold my-10 text-center font-montserrat mt-20'>
         <span >
           POURQUOI
         </span>
         <span className='text-[#689F38]'>
-          {" "} VENIR CONSULTER ?
+          {" "} VENIR EN CONSULTATION ?
         </span>
       </h3>
       <div className='flex flex-row'>
         <div className="rounded-tr-lg rounded-br-lg">
-          <img className="rounded-tr-lg rounded-br-lg  w-[295px] h-[310px] " src="assets/images/doctor.jpg" alt="Photo d'une séance de psychanalyse" />
+          <img className="object-cover rounded-tr-lg rounded-br-lg  w-[395px] h-[310px] " src="assets/images/consultation.jpg" alt="Photo d'une consult de psychanalyse" />
         </div>
         <div>
-          <ul className='px-8'>
+          <ul className='px-8 font-roboto text-xl'>
             <li className='flex mt-2'>
-              <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
-              Lors de changements ou de difficultés de vie (deuil, séparation, maladie, …).
+              <span>
+                <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              </span>
+              Lors de changements, de difficultés de vie (deuil, séparation, maladie, burnout…) ou de questionnements existentiels.
             </li>
             <li className='flex mt-2'>
-              <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
-              Pour soutenir votre rés psychiques légères, modérées ou sévères ayant nécessité ou non une hospitalisation.
+              <span>
+                <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              </span>
+              Pour soutenir votre rétablissement suite à des difficultés psychiques légères, modérées ou sévères ayant nécessité ou non une hospitalisation.
             </li>
             <li className='flex mt-2'>
-              <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              <span>
+                <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              </span>
               Pour faire face au stress, à l'anxiété, au mal-être ou encore aux addictions et dépendances.
             </li>
             <li className='flex mt-2'>
-              <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
-              Lors de difficultés relationnelles et sociales.
+              <span>
+                <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              </span>
+              Lors de difficultés relationnelles et sociales (harcèlement, phobie scolaire, …)
             </li>
             <li className='flex mt-2'>
-              <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
-              Pour pouvoir laisser la place à l'expression de vos émotions.
-            </li>
-            <li className='flex mt-2'>
-              <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              <span>
+                <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
+              </span>
               Afin de (re)trouver votre propre chemin.
             </li>
           </ul>
           <div className='text-center mt-2'>
-            <GrayBorderButton content='Prendre rendez-vous' />
+            <GrayBorderButton href="/rendez-vous" content='Prendre rendez-vous' />
           </div>
         </div>
       </div>
-      {/* Check border */}
-      <div className='flex flex-row justify-center my-20 border '>
-        <div className=' bottom-48 z-10 flex flex-row justify-around w-[80%] border'>
-          <div className="max-w-sm overflow-hidden shadow-lg bg-white p-8 rounded-2xl">
-            <div className="py-4">
-              <h4 className="font-bold text-xl mb-2 text-center">
-                Je suis inscrite à la Commission des Psychologues (912231069)
-              </h4>
-              <p className="text-gray-700 text-xl text-center mt-10">
-                Qui autorise le port du titre de psychologue et dispose d'un visa autorisant l'exercice de la profession de psychologue clinicien attribué par le SPF Santé Publique () ainsi que d'un agrément () de la Fédération Wallonie-Bruxelles autorisant le titre de psychologue clinicien.
-              </p>
-            </div>
+      <div id="consultation_type" className='flex flex-row justify-around my-20 font-montserrat '>
+        <div className="max-w-sm lg:max-w-md overflow-hidden shadow-lg bg-[#689F38]/10 p-8 rounded-2xl ">
+          <div className="py-4">
+            <h4 className="font-bold text-xl mb-2 text-center">
+              Consultation adulte / jeune adulte
+            </h4>
+            <p className="text-gray-700 text-xl text-center mt-10">
+              Je vous reçois pour des entretiens individuels. La fréquence et la durée du suivi resteront à définir ensemble. La thérapie se déroule dans une relation dynamique et interactive. Je vous accompagne à votre rythme, dans le respect de vos valeurs et de vos choix.
+            </p>
           </div>
-          <div className=' bottom-48 z-10 flex flex-row justify-around w-[80%] border'>
-            <div className="max-w-sm overflow-hidden shadow-lg bg-white p-8 rounded-2xl">
-              <div className="py-4">
-                <h4 className="font-bold text-xl mb-2 text-center">
-                  Je suis inscrite à la Commission des Psychologues (912231069)
-                </h4>
-                <p className="text-gray-700 text-xl text-center mt-10">
-                  Qui autorise le port du titre de psychologue et dispose d'un visa autorisant l'exercice de la profession de psychologue clinicien attribué par le SPF Santé Publique () ainsi que d'un agrément () de la Fédération Wallonie-Bruxelles autorisant le titre de psychologue clinicien.
-                </p>
-              </div>
-            </div>
+        </div>
+        <div className="max-w-sm lg:max-w-md overflow-hidden shadow-lg bg-[#689F38]/10 p-8 rounded-2xl">
+          <div className="py-4">
+            <h4 className="font-bold text-xl mb-2 text-center">
+              Consultation adolescent.e
+            </h4>
+            <p className="text-gray-700 text-xl text-center mt-10">
+              Je propose de mettre à ta disposition un espace qui t'est dédié, avec la possibilité d'inclure tes parents/tuteurs à certaines étapes de la prise en charge, selon les besoins de la situation et avec ton accord. Mon objectif est de créer un espace sécurisé où tu puisses s'exprimer librement, partager tes préoccupations et explorer des solutions, en sachant que le secret professionnel sera respecté. Ensemble, nous pourrons aborder les défis spécifiques liés à l'adolescence, que ce soit en matière d'identité, de relations, ou de gestion des émotions.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+      <p className='my-8 font-semibold w-[80%] mx-auto font-roboto text-xl'>
+        Le saviez-vous ?
+        Il est rare que l'adolescent.e entreprenne seul.e la démarche de demander une aide psychologique. L'adolescence est une période de bouleversements émotionnels, sociaux et physiques qui résonnent souvent au sein de la sphère familiale. Les changements observés chez les adolescents peuvent se manifester à travers des comportements extrêmes, suscitant parfois des inquiétudes au sein de leur entourage.
+      </p>
+      <div className="w-[80%] mt-8 mb-24 mx-auto">
+        <div >
+          <p className='text-end text-2xl font-montserrat underline-offset-[35px] underline decoration-2 my-20 border-t-2 border-black pt-10'>
+            Informations pratiques
+          </p>
+        </div>
+        <div className="w-[80%] mx-auto grid grid-rows-2 grid-flow-col lg:gap-x-10  lg:gap-y-4 text-xl font-montserrat">
+          <div className='flex flex-row'>
+            <span className='mr-6'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+
+            </span>
+            <span>
+              Les séances durent 50 minutes et coutent 65 euros.
+            </span>
+          </div>
+          <div className='flex flex-row'>
+            <span className='mr-6'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+              </svg>
+
+            </span>
+            <span>
+              Le paiement peut se faire en espèces ou par paiement mobile (appli Bancontact) ou par virement.
+            </span>
+          </div>
+          <div className='flex flex-row'>
+            <span className='mr-6'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+              </svg>
+
+            </span>
+            <span>
+              Les consultations psychologiques peuvent être partiellement remboursées. Renseignez-vous auprès de votre mutuelle.
+            </span>
+          </div>
+          <div className='flex flex-row'>
+            <span className='mr-6'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636" />
+              </svg>
+            </span>
+            <span>
+              La consultation est ouverte à partir de 15 ans. La consultation n'est pas ouverte aux familles, ou aux couples sauf de manière occasionnelle et définie
+            </span>
+          </div>
+        </div>
+        <p className='mt-14  lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
+          Dans ma pratique, je m'engage à
+          <span className='font-bold'>
+            {' '} éliminer {' '}
+          </span>
+          les obstacles  au maximum et à rendre le suivi
+          <span className='font-bold'>
+            {' '} accessible {' '}
+          </span>
+          à toute personne en demande d'un accompagnement.
+        </p>
+      </div>
+    </main>
   )
 }
 

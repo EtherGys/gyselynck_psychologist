@@ -14,8 +14,8 @@ function PresentationText() {
                 </p>
                 <div className='flex flex-row justify-center my-6'>
 
-                    <GrayBorderButton content='Ma formation' />
-                    <GreenBorderButton content="L'approche ACP" />
+                    <GrayBorderButton href='/formation' content='Ma formation' />
+                    <GreenBorderButton href='/approche_acp' content="L'approche ACP" />
                 </div>
             </div>
             <div className=''>

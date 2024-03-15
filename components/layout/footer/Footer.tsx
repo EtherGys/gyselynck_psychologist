@@ -5,8 +5,8 @@ function Footer() {
         <div>
             {/* <!-- Footer container --> */}
             <footer
-                className="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left font-roboto">
-                <div className="px-6 py-10 text-center md:text-left bg-[#E7A100] w-full">
+                className="text-center text-surface/75  lg:text-left font-roboto text-white">
+                <div className="px-6 py-10 text-center md:text-left bg-[#4F4141] w-full">
                     <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <div className="">
                             <h6
@@ -26,7 +26,7 @@ function Footer() {
                                 Psychologue clinicienne agréée
                             </p>
                             <div className="px-4 pt-6">
-                                <h3 className="text-lg font-semibold text-gray-900">ADRESSE</h3>
+                                <h3 className="text-lg font-semibold">ADRESSE</h3>
                                 <p className="mt-1">rue Langeweg 128,</p>
                                 <p className="mt-1">3090, Overijse</p>
                             </div>
@@ -79,7 +79,7 @@ function Footer() {
                             </h6>
                             <p className="mb-4 flex items-center justify-center md:justify-start">
                                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#E7A100" className="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#4F4141" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" className="w-6 h-6">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                                     </svg>
                                 </span>
