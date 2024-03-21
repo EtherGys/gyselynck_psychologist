@@ -11,10 +11,11 @@ function Nav() {
 
     const generalLinkstyle = "p-4 hover:bg-[#4F4141]"
     const selectedLinkstyle = "p-4 hover:bg-[#4F4141] bg-gray-300 text-gray-700 hover:text-gray-500 font-semibold border-b-4 border-[#E7A100]"
+    
     return (
         <div className='font-roboto'>
             <nav className="bg-white border-gray-200 dark:bg-gray-900 sm:flex hidden">
-                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+                <div className="flex flex-wrap justify-between w-screen items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="text-[#292222]">
                         <p className="self-center text-2xl font-semibold">Éléonore Gyselynck</p>
                         <p className="self-center text-xl font-semibold">Psychologue clinicienne agréée</p>
@@ -57,7 +58,7 @@ function Nav() {
             </nav>
 
             {/* Mobile navigation */}
-            <div className='sm:hidden flex fixed z-40'>
+            <div className='sm:hidden flex fixed z-40 w-screen'>
                 {/* burger menu */}
                 <div className='flex justify-between w-full bg-[#292222]'>
                     <a href="/" className="text-white ml-4 py-2">
@@ -70,20 +71,20 @@ function Nav() {
                         </svg>
                     </div>
                     {toggleDropdown && (
-                        <div className='absolute right-0 top-full  w-full p-5 border-t-2 border-white bg-[#292222] min-w-[210px] flex flex-col gap-2 justify-end items-end text-white'>
-                            <Link href='/' className='' onClick={() => { setToggleDropdown(false) }}>
+                        <div className='absolute right-0 top-full rounded-bl-lg w-[50%] p-5 bg-[#292222] min-w-[210px] flex flex-col gap-2 justify-end items-end text-white'>
+                            <Link href='/' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
                                 Accueil
                             </Link>
-                            <Link href='/formation' className='' onClick={() => { setToggleDropdown(false) }}>
+                            <Link href='/formation' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
                                 Ma formation
                             </Link>
-                            <Link href='/consultations' className='' onClick={() => { setToggleDropdown(false) }}>
+                            <Link href='/consultations' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
                                 Consultations
                             </Link>
-                            <Link href='/approche_acp' className='' onClick={() => { setToggleDropdown(false) }}>
+                            <Link href='/approche_acp' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
                                 L'approche ACP
                             </Link>
-                            <Link href='/rendez-vous' className='' onClick={() => { setToggleDropdown(false) }}>
+                            <Link href='/rendez-vous' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
                                 Prendre rendez-vous
                             </Link>
                         </div>

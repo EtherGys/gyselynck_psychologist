@@ -14,9 +14,9 @@ function AppointmentPage() {
           <PageTitle content="Prendre rendez-vous" />
         </div>
       </div>
-      <div className='relative font-montserrat my-40'>
-        <div className=' lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[400px] overflow-hidden lg:shadow-lg '>
-          <img src="assets/images/green-leaves.jpg" alt="Feuilles de gingko" className='z-0 lg:h-[50%] object-cover h-[800px]' />
+      <div className='relative font-montserrat my-40 lg:mb-52'>
+        <div className=' lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[300px] overflow-hidden lg:shadow-lg '>
+          <img src="assets/images/green-leaves.jpg" alt="Images de feuilles d'arbres" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>
         <div className='absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around lg:w-[80%] right-12 lg:right-32'>
           <div className='flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px] bg-[#E7A100] text-black'>
@@ -63,21 +63,21 @@ function AppointmentPage() {
       <div className='font-roboto w-[80%] m-auto pt-16'>
         <h4 className='text-3xl pb-8'>Accès</h4>
         <div>
-          <p className='font-semibold  mt-4'>
+          <p className='font-semibold lg:text-xl mt-4'>
             Transports en commun
           </p>
-          <p className='my-2'>
+          <p className='my-2 lg:text-lg'>
             - <a href="https://www.belgiantrain.be/fr" className='underline'>Bus TEC</a> : Bus 504, 546, 210, R78, R76 (Arrêt #NOM DE L'ARRET à 10 minutes à pied)
           </p>
-          <p>
-            - <a href="https://www.belgiantrain.be/fr" className='underline'>SCNB</a> : Train(Gare de La Hulpe à 15 minutes à pied)
+          <p className='lg:text-lg'>
+            - <a href="https://www.belgiantrain.be/fr" className='underline'>SCNB</a> : Train (Gare de La Hulpe à 15 minutes à pied)
           </p>
         </div>
         <div>
-          <p className='font-semibold mt-4'>
+          <p className='font-semibold lg:text-xl mt-4'>
             Parking
           </p>
-          <p className='my-2'>
+          <p className='my-2 lg:text-lg'>
             Parking disponible devant le cabinet
           </p>
         </div>
