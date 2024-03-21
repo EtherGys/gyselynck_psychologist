@@ -35,11 +35,11 @@ function EducationPage() {
       <div className='text-center'>
         <GrayBorderButton href='/approche_acp' content="En savoir + sur l'ACP" />
       </div>
-      <div className='relative'>
+      <div className='relative lg:mt-16'>
         <div className='lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[600px] overflow-hidden shadow-lg mt-60 mb-60 lg:mb-20'>
           <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>
-        <div className='absolute top-0 lg:bottom-48 z-10 flex flex-col lg:flex-row lg:justify-around mx-auto w-[90%] lg:w-[80%] left-4 lg:right-32'>
+        <div className='absolute top-0 lg:bottom-48 z-10 flex flex-col lg:flex-row lg:justify-around mx-auto w-[90%] lg:w-[80%] left-4 lg:left-32'>
           <div className="max-w-sm overflow-hidden shadow-inner border-2 lg:border-none bg-white p-8 mt-16  lg:my-0 rounded-2xl">
             <div className="py-4">
               <h4 className="font-bold text-xl mb-2 text-center font-roboto">Je suis inscrite à la Commission des Psychologues (912231069) </h4>

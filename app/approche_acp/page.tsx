@@ -50,7 +50,7 @@ function ACPPage() {
             , appelée aussi la Troisième force aux côtés de la psychanalyse et du comportementalisme.
           </p>
         </div>
-        <div className="s:flex hidden rounded-tr-lg rounded-br-lg m-auto">
+        <div className="sm:flex hidden rounded-tr-lg rounded-br-lg m-auto">
           <img className="object-cover rounded-tl-lg rounded-bl-lg  w-[395px] h-[360px] " src="assets/images/carl-rogers.webp" alt="Photo d'une consult de psychanalyse" />
         </div>
       </div>

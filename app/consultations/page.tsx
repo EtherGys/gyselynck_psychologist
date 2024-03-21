@@ -12,7 +12,7 @@ function ConsultationPage() {
           <PageTitle content='Venir en consultation' />
         </div>
       </div>
-      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-2xl text-center lg:text-left lg:text-4xl font-montserrat font-semibold my-10'>
+      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-2xl text-center lg:text-left lg:text-4xl font-montserrat font-semibold my-10 lg:mt-20'>
         <span className='lg:underline underline-offset-8 decoration-8 decoration-[#BFB55B]/50'>
           POURQUOI
         </span>
@@ -62,8 +62,8 @@ function ConsultationPage() {
           </div>
         </div>
       </div>
-      <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto'>
-        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8">
+      <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0 '>
+        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adulte / jeune adulte
@@ -73,7 +73,7 @@ function ConsultationPage() {
             </p>
           </div>
         </div>
-        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8">
+        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adolescent.e
