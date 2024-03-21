@@ -1,5 +1,7 @@
 
 'use client'
+import Image from 'next/image';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useState } from 'react'
 
@@ -11,7 +13,7 @@ function Nav() {
     const selectedLinkstyle = "p-4 hover:bg-[#4F4141] bg-gray-300 text-gray-700 hover:text-gray-500 font-semibold border-b-4 border-[#E7A100]"
     return (
         <div className='font-roboto'>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900">
+            <nav className="bg-white border-gray-200 dark:bg-gray-900 sm:flex hidden">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="text-[#292222]">
                         <p className="self-center text-2xl font-semibold">Éléonore Gyselynck</p>
@@ -30,7 +32,7 @@ function Nav() {
                     </div>
                 </div>
             </nav>
-            <nav className="bg-[#292222] ">
+            <nav className="bg-[#292222] sm:flex hidden">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="">
                         <ul className="flex flex-row justify-around text-white">
@@ -54,6 +56,40 @@ function Nav() {
                 </div>
             </nav>
 
+            {/* Mobile navigation */}
+            <div className='sm:hidden flex fixed z-40'>
+                {/* burger menu */}
+                <div className='flex justify-between w-full bg-[#292222]'>
+                    <a href="/" className="text-white ml-4 py-2">
+                        <p className="self-center text-sm">Éléonore Gyselynck</p>
+                        <p className="self-center text-xs">Psychologue clinicienne agréée</p>
+                    </a>
+                    <div onClick={() => { setToggleDropdown((prev) => !prev) }} className='mr-4 my-auto w-6 h-6 z-50'>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
+                    {toggleDropdown && (
+                        <div className='absolute right-0 top-full  w-full p-5 border-t-2 border-white bg-[#292222] min-w-[210px] flex flex-col gap-2 justify-end items-end text-white'>
+                            <Link href='/' className='' onClick={() => { setToggleDropdown(false) }}>
+                                Accueil
+                            </Link>
+                            <Link href='/formation' className='' onClick={() => { setToggleDropdown(false) }}>
+                                Ma formation
+                            </Link>
+                            <Link href='/consultations' className='' onClick={() => { setToggleDropdown(false) }}>
+                                Consultations
+                            </Link>
+                            <Link href='/approche_acp' className='' onClick={() => { setToggleDropdown(false) }}>
+                                L'approche ACP
+                            </Link>
+                            <Link href='/rendez-vous' className='' onClick={() => { setToggleDropdown(false) }}>
+                                Prendre rendez-vous
+                            </Link>
+                        </div>
+                    )}
+                </div>
+            </div>
         </div>
     )
 }

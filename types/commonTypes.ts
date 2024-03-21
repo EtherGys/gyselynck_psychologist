@@ -26,5 +26,5 @@ interface greenFrameProps {
     contentp1: string
     contentp2: string
     buttonTitle: string
-
+    href: string
 }

@@ -3,11 +3,11 @@ import Card from './Card'
 
 function CardLayout() {
     return (
-        <div className='relative font-montserrat'>
-            <div className=' rounded-2xl w-[80%] mx-auto lg:max-h-[400px] overflow-hidden shadow-lg my-20'>
-                <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 h-[50%]' />
+        <div className='relative font-montserrat mt-24 mb-10 lg:mt-0'>
+            <div className='lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[400px] overflow-hidden lg:shadow-lg my-20'>
+                <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 lg:h-[50%] object-cover h-[800px]' />
             </div>
-            <div className='absolute top-48 z-10 flex flex-row justify-around w-[80%] right-32'>
+            <div className='absolute -top-20 lg:top-48 mx-auto z-10 flex flex-col lg:flex-row justify-around left-5 lg:left-24 w-[90%] lg:w-[85%] '>
                 <Card
                     title="Consultation adulte"
                     content="Je vous reçois pour des entretiens individuels. La fréquence et la durée du suivi resteront à définir ensemble. La thérapie se déroule dans une relation dynamique et interactive."

@@ -8,12 +8,12 @@ function ConsultationPage() {
     <main className='flex flex-col xl:w-[70%] mx-auto'>
       <div className='relative xl:w-[70%] mt-20'>
         <LeafImage src="assets/images/doctor.jpg" alt="Photo d'Éléonore Gyselynck" />
-        <div className='absolute top-32 left-60'>
+        <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content='Venir en consultation' />
         </div>
       </div>
-      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-4xl font-semibold my-10 text-center font-montserrat mt-20'>
-        <span >
+      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-2xl text-center lg:text-left lg:text-4xl font-montserrat font-semibold my-10'>
+        <span className='lg:underline underline-offset-8 decoration-8 decoration-[#BFB55B]/50'>
           POURQUOI
         </span>
         <span className='text-[#689F38]'>
@@ -21,11 +21,11 @@ function ConsultationPage() {
         </span>
       </h3>
       <div className='flex flex-row'>
-        <div className="rounded-tr-lg rounded-br-lg">
+        <div className="sm:flex hidden rounded-tr-lg rounded-br-lg">
           <img className="object-cover rounded-tr-lg rounded-br-lg  w-[395px] h-[310px] " src="assets/images/consultation.jpg" alt="Photo d'une consult de psychanalyse" />
         </div>
         <div>
-          <ul className='px-8 font-roboto text-xl'>
+          <ul className='px-8 font-roboto lg:text-xl'>
             <li className='flex mt-2'>
               <span>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
@@ -62,8 +62,8 @@ function ConsultationPage() {
           </div>
         </div>
       </div>
-      <div id="consultation_type" className='flex flex-row justify-around my-20 font-montserrat '>
-        <div className="max-w-sm lg:max-w-md overflow-hidden shadow-lg bg-[#689F38]/10 p-8 rounded-2xl ">
+      <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto'>
+        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adulte / jeune adulte
@@ -73,7 +73,7 @@ function ConsultationPage() {
             </p>
           </div>
         </div>
-        <div className="max-w-sm lg:max-w-md overflow-hidden shadow-lg bg-[#689F38]/10 p-8 rounded-2xl">
+        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adolescent.e
@@ -94,11 +94,11 @@ function ConsultationPage() {
             Informations pratiques
           </p>
         </div>
-        <div className="w-[80%] mx-auto grid grid-rows-2 grid-flow-col lg:gap-x-10  lg:gap-y-4 text-xl font-montserrat">
+        <div className="lg:w-[80%] mx-auto grid grid-rows-4 lg:grid-rows-2 grid-flow-col lg:gap-x-10  gap-y-0 lg:gap-y-4 text-xl font-montserrat">
           <div className='flex flex-row'>
             <span className='mr-6'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
 
             </span>
@@ -108,8 +108,8 @@ function ConsultationPage() {
           </div>
           <div className='flex flex-row'>
             <span className='mr-6'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
               </svg>
 
             </span>
@@ -119,8 +119,8 @@ function ConsultationPage() {
           </div>
           <div className='flex flex-row'>
             <span className='mr-6'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
               </svg>
 
             </span>
@@ -130,8 +130,8 @@ function ConsultationPage() {
           </div>
           <div className='flex flex-row'>
             <span className='mr-6'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636" />
               </svg>
             </span>
             <span>

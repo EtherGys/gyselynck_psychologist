@@ -6,7 +6,7 @@ function Footer() {
             {/* <!-- Footer container --> */}
             <footer
                 className="text-center text-surface/75  lg:text-left font-roboto text-white">
-                <div className="px-6 py-10 text-center md:text-left bg-[#4F4141] w-full">
+                <div className="px-6 py-10 text-center md:text-left bg-[#292222] w-full">
                     <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <div className="">
                             <h6
@@ -36,42 +36,22 @@ function Footer() {
                                 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                                 Menu
                             </h6>
-                            <p className="mb-4">
+                            <p className="mb-4 underline-offset-4 underline">
                                 <a href="/">Accueil</a>
                             </p>
-                            <p className="mb-4">
+                            <p className="mb-4 underline-offset-4 underline">
                                 <a href="/formation">Ma formation</a>
                             </p>
-                            <p className="mb-4">
+                            <p className="mb-4 underline-offset-4 underline">
                                 <a href="/consultation">Consultations</a>
                             </p>
-                            <p className="mb-4">
+                            <p className="mb-4 underline-offset-4 underline">
                                 <a href="/approche_acp">L'approche ACP</a>
                             </p>
-                            <p>
+                            <p className="underline-offset-4 underline">
                                 <a href="/rendez-vous">Prendre rendez-vous</a>
                             </p>
                         </div>
-                        {/* <!-- Useful links section --> */}
-                        {/* <div>
-                            <h6
-                                className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                                Useful links
-                            </h6>
-                            <p className="mb-4">
-                                <a href="#!">Pricing</a>
-                            </p>
-                            <p className="mb-4">
-                                <a href="#!">Settings</a>
-                            </p>
-                            <p className="mb-4">
-                                <a href="#!">Orders</a>
-                            </p>
-                            <p>
-                                <a href="#!">Help</a>
-                            </p>
-                        </div> */}
-                        {/* <!-- Contact section --> */}
                         <div>
                             <h6
                                 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -119,7 +99,7 @@ function Footer() {
                 </div>
 
                 {/* <!--Copyright section--> */}
-                <div className="bg-black text-white p-6 text-center">
+                <div className="bg-black text-white  p-2 lg:p-6 text-sm lg:text-base text-center">
                     <span>© 2024 Éléonore Gyselynck, Tous droits réservés. Conçu par Victoria Gyselynck</span>
                 </div>
             </footer>

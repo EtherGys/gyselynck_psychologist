@@ -2,9 +2,13 @@
 import React, { useCallback, useMemo, useState } from 'react'
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 
-const containerStyle = {
+const DesktopContainerStyle = {
   width: '650px',
   height: '450px',
+};
+const MobileContainerStyle = {
+  width: '350px',
+  height: '250px',
 };
 
 const center = {
@@ -22,27 +26,41 @@ function GoogleMaps() {
     googleMapsApiKey: "AIzaSyAnrzJEyo8bpuo_yB-BaM8YQXkdnS2bGK0"
   })
 
-//   const [map, setMap] = useState(null)
+  //   const [map, setMap] = useState(null)
 
-//   const onLoad = useCallback(function callback(map: any) {
-//     const bounds = new window.google.maps.LatLngBounds(center);
-//     map.fitBounds(bounds);
+  //   const onLoad = useCallback(function callback(map: any) {
+  //     const bounds = new window.google.maps.LatLngBounds(center);
+  //     map.fitBounds(bounds);
 
-//     setMap(map)
-//   }, [])
+  //     setMap(map)
+  //   }, [])
 
-//   const onUnmount = useCallback(function callback(map: any) {
-//     setMap(null)
-//   }, [])
+  //   const onUnmount = useCallback(function callback(map: any) {
+  //     setMap(null)
+  //   }, [])
 
-  return isLoaded ? (
+  return isLoaded ? (<>
+    <div className='sm:hidden flex'>
+
       <GoogleMap
-        mapContainerStyle={containerStyle}
+        mapContainerStyle={MobileContainerStyle}
         center={center}
         zoom={20}
       >
-        <Marker position={center}/>
+        <Marker position={center} />
       </GoogleMap>
+    </div>
+    <div className='sm:flex hidden'>
+
+      <GoogleMap
+        mapContainerStyle={DesktopContainerStyle}
+        center={center}
+        zoom={20}
+      >
+        <Marker position={center} />
+      </GoogleMap>
+    </div>
+  </>
   ) : <></>
 }
 

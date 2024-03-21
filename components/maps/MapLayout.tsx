@@ -4,23 +4,23 @@ import GoogleMaps from './GoogleMaps'
 
 function MapLayout() {
   return (
-    <div className='mt-[300px] mb-40 font-roboto drop-shadow-lg '>
-      <section className="bg-gray-200 box-shadow rounded-xl xl:w-[80%] m-auto">
+    <div className='mb-40 font-roboto drop-shadow-lg '>
+      <section className="bg-gray-200 box-shadow lg:rounded-xl lg:w-[80%] m-auto">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
-          <div className='flex flex-row'>
+          <div className='flex flex-col lg:flex-row'>
             <div className="max-w-2xl lg:max-w-4xl flex flex-col items-center">
               <div className="text-xl font-extrabold text-gray-900 pb-4">RENDEZ-VOUS SUR DOCTORANYTIME</div>
-              <GreenFullButton content='Prendre rendez-vous en ligne' />
+              <GreenFullButton href='/rendez-vous' content='Prendre rendez-vous en ligne' />
             </div>
-            <div className="max-w-2xl lg:max-w-4xl mx-auto border-l-4 border-gray-500 p-4">
+            <div className="max-w-2xl lg:max-w-4xl lg:mx-auto border-l-4 border-gray-500 p-4">
               <div className="text-3xl font-extrabold text-gray-900">SUR RDV</div>
               <p className="mt-4 text-lg text-gray-500">Le mardi et jeudi de 9h à 17h</p>
             </div>
           </div>
-          <div className="mt-16 lg:mt-20">
-            <div className="flex flex-row justify-between">
+          <div className="mt-8 lg:mt-20">
+            <div className="flex flex-col lg:flex-row lg:justify-between items-center ">
               <div>
-                <div className="mx-auto rounded-lg overflow-hidden">
+                <div className="mx-auto overflow-hidden ">
                   <div className='flex flex-row'>
                     <div className='pt-6'>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
@@ -53,7 +53,7 @@ function MapLayout() {
                       </svg>
 
                     </div>
-                    <div className="px-4 py-4">
+                    <div className="px-4 lg:pb-4 pb-8">
                       <div className="text-lg font-semibold text-gray-900">ADRESSE</div>
                       <p className="mt-1 text-gray-600">rue Langeweg 128,</p>
                       <p className="mt-1 text-gray-600">3090, Overijse</p>

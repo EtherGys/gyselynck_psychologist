@@ -5,7 +5,7 @@ import GreenFullButton from './buttons/GreenFullButton'
 function HeroMenu() {
     return (
         <div className="">
-            <div className="relative w-full overflow-hidden">
+            <div className="relative w-full overflow-hidden sm:flex hidden">
                 <img src="/assets/images/arbre.jpg" alt="Avatar" className="object-cover w-full h-full" />
                 <div className="font-roboto absolute  py-2.5 bottom-52 left-32  rounded-tl-[15px]  rounded-bl-[120px] rounded-tr-[120px]  w-[437px] h-[343px] p-10 bg-white/60 text-black">
                     <div className='ml-10'>

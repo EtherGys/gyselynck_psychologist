@@ -1,7 +1,6 @@
 import GreenCard from '@/components/GreenCard'
 import PageTitle from '@/components/PageTitle'
 import GrayBorderButton from '@/components/buttons/GrayBorderButton'
-import Card from '@/components/cards/Card'
 import LeafImage from '@/components/leaves/LeafImage'
 import React from 'react'
 
@@ -10,14 +9,15 @@ function EducationPage() {
     <div className='flex flex-col xl:w-[70%] mx-auto'>
       <div className='relative mt-20'>
         <LeafImage src="assets/images/doctor.jpg" alt="Photo d'Éléonore Gyselynck" />
-        <div className='absolute top-32 left-60'>
+        <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content='Ma formation en tant que psychologue' />
         </div>
       </div>
       <GreenCard
         contentp1="Forte de mon expérience en tant que psychologue clinicienne dans diverses institutions (principalement psychiatriques), notamment auprès d'adolescents et de leurs familles, j'accueille adolescents, adultes et jeunes adultes pour des consultations individuelles en cabinet privé."
         contentp2=""
-        buttonTitle='Les types de consultations' />
+        buttonTitle='Les types de consultations'
+        href='/consultations' />
       <div className='xl:w-[80%] mx-auto my-8 font-montserrat text-xl'>
         <p className='p-4'>
           Formée en psychologie clinique de l'adulte à l'UCL, il a été ensuite question pour moi de choisir le courant psychothérapeutique vers lequel je souhaitais me diriger.
@@ -33,18 +33,18 @@ function EducationPage() {
         </p>
       </div>
       <div className='text-center'>
-        <GrayBorderButton content="En savoir + sur l'ACP" />
+        <GrayBorderButton href='/approche_acp' content="En savoir + sur l'ACP" />
       </div>
       <div className='relative'>
-        <div className=' rounded-2xl w-[80%] mx-auto lg:max-h-[600px] overflow-hidden shadow-lg mt-60 mb-20'>
-          <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 h-[50%]' />
+        <div className='lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[600px] overflow-hidden shadow-lg mt-60 mb-60 lg:mb-20'>
+          <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>
-        <div className='absolute bottom-48 z-10 flex flex-row justify-around w-[80%] right-32'>
-          <div className="max-w-sm overflow-hidden shadow-inner bg-white p-8 rounded-2xl">
+        <div className='absolute top-0 lg:bottom-48 z-10 flex flex-col lg:flex-row lg:justify-around mx-auto w-[90%] lg:w-[80%] left-4 lg:right-32'>
+          <div className="max-w-sm overflow-hidden shadow-inner border-2 lg:border-none bg-white p-8 mt-16  lg:my-0 rounded-2xl">
             <div className="py-4">
               <h4 className="font-bold text-xl mb-2 text-center font-roboto">Je suis inscrite à la Commission des Psychologues (912231069) </h4>
               <p className="text-gray-700 text-xl text-center mt-10  font-roboto">
-              Qui m'autorise à porter le titre de psychologue. De plus, je dispose d'un visa délivré par le SPF Santé Publique, permettant l'exercice de la profession de psychologue clinicien (340878), ainsi que d'un agrément de la Fédération Wallonie-Bruxelles autorisant l'utilisation du titre de psychologue clinicien.
+                Qui m'autorise à porter le titre de psychologue. De plus, je dispose d'un visa délivré par le SPF Santé Publique, permettant l'exercice de la profession de psychologue clinicien (340878), ainsi que d'un agrément de la Fédération Wallonie-Bruxelles autorisant l'utilisation du titre de psychologue clinicien.
               </p>
               <div className='mt-6 flex flex-row justify-between'>
                 <img src="assets/icons/logo_cp.png" alt="Logo de la commission des psychologues" width={240} />
@@ -52,7 +52,7 @@ function EducationPage() {
               </div>
             </div>
           </div>
-          <div className="max-w-sm overflow-hidden shadow-inner bg-white p-8 rounded-2xl">
+          <div className="max-w-sm overflow-hidden shadow-inner border-2 lg:border-none bg-white p-8 mt-16 lg:my-0 rounded-2xl lg:mb-0">
             <div className="px-6 py-4">
               <h4 className="font-bold text-xl mb-2 text-center  font-roboto">Membre de l'association Francophone de psychothérapie centrée sur la personne</h4>
               <p className="text-gray-700 text-xl text-center mt-10  font-roboto">
