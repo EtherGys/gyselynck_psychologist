@@ -43,7 +43,7 @@ function Footer() {
                                 <a href="/formation">Ma formation</a>
                             </p>
                             <p className="mb-4 underline-offset-4 underline">
-                                <a href="/consultation">Consultations</a>
+                                <a href="/consultations">Consultations</a>
                             </p>
                             <p className="mb-4 underline-offset-4 underline">
                                 <a href="/approche_acp">L'approche ACP</a>

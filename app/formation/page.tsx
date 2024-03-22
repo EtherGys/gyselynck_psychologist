@@ -35,7 +35,7 @@ function EducationPage() {
       <div className='text-center'>
         <GrayBorderButton href='/approche_acp' content="En savoir + sur l'ACP" />
       </div>
-      <div className='relative lg:mt-16'>
+      <div className='relative mb-32 md:mb-0 lg:mt-16'>
         <div className='lg:rounded-2xl lg:w-[80%] xl:w-full mx-auto lg:max-h-[600px] overflow-hidden shadow-lg mt-60 mb-60 lg:mb-20'>
           <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>

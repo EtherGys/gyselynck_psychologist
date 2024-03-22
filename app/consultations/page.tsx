@@ -30,13 +30,13 @@ function ConsultationPage() {
               <span>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
-              Lors de changements, de difficultés de vie (deuil, séparation, maladie, burnout…) ou de questionnements existentiels.
+              Pour soutenir votre rétablissement suite à des difficultés psychiques légères, modérées ou sévères ayant nécessité ou non une hospitalisation.
             </li>
             <li className='flex mt-2'>
               <span>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
-              Pour soutenir votre rétablissement suite à des difficultés psychiques légères, modérées ou sévères ayant nécessité ou non une hospitalisation.
+              Lors de changements, de difficultés de vie (deuil, séparation, maladie, burnout…) ou de questionnements existentiels.
             </li>
             <li className='flex mt-2'>
               <span>
