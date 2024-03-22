@@ -6,7 +6,7 @@ import React from 'react'
 function ACPPage() {
   return (
     <main className='flex flex-col xl:w-[70%] mx-auto'>
-      <div className='relative xl:w-[70%] mt-20'>
+      <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
         <LeafImage src="assets/images/carlrogersposter.webp" alt="Photo de Carl Rogers" />
         <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content="L'Approche Centrée sur la Personne (ACP)" />
@@ -33,8 +33,8 @@ function ACPPage() {
         </span>
       </h2>
 
-      <div className='flex flex-row bg-[#689F38]/45 lg:h-[400px] text-xl font-roboto'>
-        <div className='w-[80%] m-auto py-4 lg:p-10'>
+      <div className='flex flex-row bg-[#689F38]/45 xl:h-[400px] text-xl font-roboto'>
+        <div className='w-[80%] m-auto py-4 lg:p-10 sm:mx-4' >
           <p className='my-4'>
             Il s'agit d'une
             <span className='font-bold'>

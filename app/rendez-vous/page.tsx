@@ -6,19 +6,19 @@ import React from 'react'
 function AppointmentPage() {
   return (
     <main className='flex flex-col xl:w-[70%] mx-auto'>
-      <div className='relative xl:w-[70%] mt-20'>
-        <img className="sm:flex hidden object-cover object-left py-2.5 bottom-52 left-32  inset-x-0  text-center rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px]"
+      <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
+        <img className="lg:flex hidden object-cover object-left py-2.5 bottom-52 left-32  inset-x-0 text-center rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px]"
           src="assets/images/pexels-rdv.jpg"
           alt="Photo d'une consultation" />
         <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content="Prendre rendez-vous" />
         </div>
       </div>
-      <div className='relative font-montserrat my-40 lg:mb-52'>
-        <div className=' lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[300px] overflow-hidden lg:shadow-lg '>
+      <div className='relative font-montserrat my-40 lg:my-16 xl:my-40 xl:mb-52'>
+        <div className='lg:hidden xl:flex lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[300px] overflow-hidden lg:shadow-lg '>
           <img src="assets/images/green-leaves.jpg" alt="Images de feuilles d'arbres" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>
-        <div className='absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around lg:w-[80%] right-12 lg:right-32'>
+        <div className='absolute lg:static xl:absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around xl:w-[80%] right-12 sm:right-52 md:right-60 lg:right-32'>
           <div className='flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px] bg-[#E7A100] text-black'>
             <p className='px-10 text-justify'>
               Je vous demande de

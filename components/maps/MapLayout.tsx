@@ -12,7 +12,7 @@ function MapLayout() {
               <div className="text-xl font-extrabold text-gray-900 pb-4">RENDEZ-VOUS SUR DOCTORANYTIME</div>
               <GreenFullButton href='/rendez-vous' content='Prendre rendez-vous en ligne' />
             </div>
-            <div className="max-w-2xl lg:max-w-4xl lg:mx-auto border-l-4 border-gray-500 p-4">
+            <div className="max-w-2xl lg:max-w-4xl lg:mx-auto sm:mx-auto sm:mt-8 border-l-4 border-gray-500 p-4">
               <div className="text-3xl font-extrabold text-gray-900">SUR RDV</div>
               <p className="mt-4 text-lg text-gray-500">Le mardi et jeudi de 9h à 17h</p>
             </div>

@@ -6,7 +6,7 @@ import React from 'react'
 function ConsultationPage() {
   return (
     <main className='flex flex-col xl:w-[70%] mx-auto'>
-      <div className='relative xl:w-[70%] mt-20'>
+      <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
         <LeafImage src="assets/images/doctor.jpg" alt="Photo d'Éléonore Gyselynck" />
         <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content='Venir en consultation' />
@@ -21,7 +21,7 @@ function ConsultationPage() {
         </span>
       </h3>
       <div className='flex flex-row'>
-        <div className="sm:flex hidden rounded-tr-lg rounded-br-lg">
+        <div className="md:flex hidden rounded-tr-lg rounded-br-lg">
           <img className="object-cover rounded-tr-lg rounded-br-lg  w-[395px] h-[310px] " src="assets/images/consultation.jpg" alt="Photo d'une consult de psychanalyse" />
         </div>
         <div>
@@ -57,13 +57,13 @@ function ConsultationPage() {
               Afin de (re)trouver votre propre chemin.
             </li>
           </ul>
-          <div className='text-center mt-2'>
+          <div className='text-center mt-2 sm:mt-6'>
             <GrayBorderButton href="/rendez-vous" content='Prendre rendez-vous' />
           </div>
         </div>
       </div>
       <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0 '>
-        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
+        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adulte / jeune adulte
@@ -73,7 +73,7 @@ function ConsultationPage() {
             </p>
           </div>
         </div>
-        <div className="max-w-sm lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
+        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adolescent.e
@@ -139,7 +139,7 @@ function ConsultationPage() {
             </span>
           </div>
         </div>
-        <p className='mt-14  lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
+        <p className='mt-14 sm:text-xl lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
           Dans ma pratique, je m'engage à
           <span className='font-bold'>
             {' '} éliminer {' '}

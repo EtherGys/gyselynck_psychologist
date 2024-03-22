@@ -12,7 +12,7 @@ function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2, buttonTitle, 
                     {" "} {greenTitle}
                 </span>
             </h3>
-            <div className="max-w-sm w-[85%] lg:max-w-[80%] lg:flex bg-[#689F38] rounded-2xl p-8 mt-14 mx-auto">
+            <div className="w-[90%] lg:w-[80%] xl:w-full lg:flex bg-[#689F38] rounded-2xl p-8 mt-14 mx-auto">
                 <div className="text-white h-auto lg:w-[70%] flex-none text-center lg:text-left lg:text-xl">
                     <p>
                         {contentp1}

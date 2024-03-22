@@ -7,7 +7,7 @@ import React from 'react'
 function EducationPage() {
   return (
     <div className='flex flex-col xl:w-[70%] mx-auto'>
-      <div className='relative mt-20'>
+      <div className='relative mt-20 lg:w-[70%] m-auto'>
         <LeafImage src="assets/images/doctor.jpg" alt="Photo d'Éléonore Gyselynck" />
         <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content='Ma formation en tant que psychologue' />
@@ -18,7 +18,7 @@ function EducationPage() {
         contentp2=""
         buttonTitle='Les types de consultations'
         href='/consultations' />
-      <div className='xl:w-[80%] mx-auto my-8 font-montserrat text-xl'>
+      <div className='md:w-[90%] lg:w-[80%] mx-auto my-8 font-montserrat text-xl'>
         <p className='p-4'>
           Formée en psychologie clinique de l'adulte à l'UCL, il a été ensuite question pour moi de choisir le courant psychothérapeutique vers lequel je souhaitais me diriger.
         </p>
@@ -39,7 +39,7 @@ function EducationPage() {
         <div className='lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[600px] overflow-hidden shadow-lg mt-60 mb-60 lg:mb-20'>
           <img src="assets/images/gingko_cut.jpg" alt="Feuilles de gingko" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>
-        <div className='absolute top-0 lg:bottom-48 z-10 flex flex-col lg:flex-row lg:justify-around mx-auto w-[90%] lg:w-[80%] left-4 lg:left-32'>
+        <div className='absolute top-0 lg:bottom-48 z-10 flex flex-col lg:flex-row lg:justify-around mx-auto w-[90%] lg:w-[80%] left-4 sm:left-36 md:left-48 lg:left-28 xl:left-32'>
           <div className="max-w-sm overflow-hidden shadow-inner border-2 lg:border-none bg-white p-8 mt-16  lg:my-0 rounded-2xl">
             <div className="py-4">
               <h4 className="font-bold text-xl mb-2 text-center font-roboto">Je suis inscrite à la Commission des Psychologues (912231069) </h4>

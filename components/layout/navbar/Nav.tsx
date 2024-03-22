@@ -14,7 +14,7 @@ function Nav() {
     
     return (
         <div className='font-roboto'>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900 sm:flex hidden">
+            <nav className="bg-white border-gray-200 dark:bg-gray-900 md:flex hidden">
                 <div className="flex flex-wrap justify-between w-screen items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="text-[#292222]">
                         <p className="self-center text-2xl font-semibold">Éléonore Gyselynck</p>
@@ -33,7 +33,7 @@ function Nav() {
                     </div>
                 </div>
             </nav>
-            <nav className="bg-[#292222] sm:flex hidden">
+            <nav className="bg-[#292222] md:flex hidden">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="">
                         <ul className="flex flex-row justify-around text-white">
@@ -58,7 +58,7 @@ function Nav() {
             </nav>
 
             {/* Mobile navigation */}
-            <div className='sm:hidden flex fixed z-40 w-screen'>
+            <div className='md:hidden flex fixed z-40 w-screen'>
                 {/* burger menu */}
                 <div className='flex justify-between w-full bg-[#292222]'>
                     <a href="/" className="text-white ml-4 py-2">
