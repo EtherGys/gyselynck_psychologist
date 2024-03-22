@@ -12,7 +12,7 @@ function ConsultationPage() {
           <PageTitle content='Venir en consultation' />
         </div>
       </div>
-      <h3 className='max-w-sm w-full lg:max-w-[80%] mx-auto text-2xl text-center lg:text-left lg:text-4xl font-montserrat font-semibold my-10 lg:mt-20'>
+      <h3 className='max-w-sm w-full lg:max-w-[80%] xl:max-w-full mx-auto text-2xl text-center lg:text-left lg:text-4xl font-montserrat font-semibold my-10 lg:mt-20'>
         <span className='lg:underline underline-offset-8 decoration-8 decoration-[#BFB55B]/50'>
           POURQUOI
         </span>
@@ -22,7 +22,7 @@ function ConsultationPage() {
       </h3>
       <div className='flex flex-row'>
         <div className="md:flex hidden rounded-tr-lg rounded-br-lg">
-          <img className="object-cover rounded-tr-lg rounded-br-lg  w-[395px] h-[310px] " src="assets/images/consultation.jpg" alt="Photo d'une consult de psychanalyse" />
+          <img className="object-cover rounded-tr-lg rounded-br-lg w-[695px] h-[310px]" src="assets/images/consultation.jpg" alt="Photo d'une consult de psychanalyse" />
         </div>
         <div>
           <ul className='px-8 font-roboto lg:text-xl'>
@@ -62,8 +62,8 @@ function ConsultationPage() {
           </div>
         </div>
       </div>
-      <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0 '>
-        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
+      <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0'>
+        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adulte / jeune adulte
@@ -73,7 +73,7 @@ function ConsultationPage() {
             </p>
           </div>
         </div>
-        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
+        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adolescent.e
@@ -94,7 +94,7 @@ function ConsultationPage() {
             Informations pratiques
           </p>
         </div>
-        <div className="lg:w-[80%] mx-auto grid grid-rows-4 lg:grid-rows-2 grid-flow-col lg:gap-x-10  gap-y-0 lg:gap-y-4 text-xl font-montserrat">
+        <div className="lg:w-[80%] xl:w-full mx-auto grid grid-rows-4 lg:grid-rows-2 grid-flow-col lg:gap-x-10  gap-y-0 lg:gap-y-4 text-xl font-montserrat">
           <div className='flex flex-row'>
             <span className='mr-6'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">

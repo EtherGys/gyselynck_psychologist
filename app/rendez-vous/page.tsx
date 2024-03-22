@@ -15,11 +15,11 @@ function AppointmentPage() {
         </div>
       </div>
       <div className='relative font-montserrat my-40 lg:my-16 xl:my-40 xl:mb-52'>
-        <div className='lg:hidden xl:flex lg:rounded-2xl lg:w-[80%] mx-auto lg:max-h-[300px] overflow-hidden lg:shadow-lg '>
+        <div className='lg:hidden xl:flex lg:rounded-2xl lg:w-[80%] xl:w-full mx-auto lg:max-h-[300px] overflow-hidden lg:shadow-lg '>
           <img src="assets/images/green-leaves.jpg" alt="Images de feuilles d'arbres" className='z-0 lg:h-[50%] object-cover h-[800px]' />
         </div>
-        <div className='absolute lg:static xl:absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around xl:w-[80%] right-12 sm:right-52 md:right-60 lg:right-32'>
-          <div className='flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px] bg-[#E7A100] text-black'>
+        <div className='absolute lg:static xl:absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around right-12 sm:right-52 md:right-60 lg:right-32 xl:right-0 xl:w-full'>
+          <div className='flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px] w-[295px] h-[310px] bg-[#E7A100] text-black'>
             <p className='px-10 text-justify'>
               Je vous demande de
               prévenir au moins 24h à

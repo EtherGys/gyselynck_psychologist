@@ -5,7 +5,7 @@ import GoogleMaps from './GoogleMaps'
 function MapLayout() {
   return (
     <div className='mb-40 font-roboto drop-shadow-lg '>
-      <section className="bg-gray-200 box-shadow lg:rounded-xl lg:w-[80%] m-auto">
+      <section className="bg-gray-200 box-shadow lg:rounded-xl lg:w-[80%] xl:w-full m-auto">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           <div className='flex flex-col lg:flex-row'>
             <div className="max-w-2xl lg:max-w-4xl flex flex-col items-center">
