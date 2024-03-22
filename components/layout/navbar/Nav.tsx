@@ -17,7 +17,7 @@ function Nav() {
             <nav className="bg-white border-gray-200 dark:bg-gray-900 md:flex hidden">
                 <div className="flex flex-wrap justify-between w-screen items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="text-[#292222]">
-                        <p className="self-center text-2xl font-semibold">Éléonore Gyselynck</p>
+                        <p className="self-center text-2xl font-semibold flex"><img className='w-6 h-6 mt-1 mr-2' src="/assets/logos/logo_black_on_white.png" alt="logo d'Éléonore Gyselynck" />Éléonore Gyselynck</p>
                         <p className="self-center text-xl font-semibold">Psychologue clinicienne agréée</p>
                     </a>
                     <div className="flex items-center space-x-6 rtl:space-x-reverse">
