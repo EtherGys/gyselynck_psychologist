@@ -40,7 +40,7 @@ function Footer() {
                                 <a href="/consultations">Consultations</a>
                             </p>
                             <p className="mb-4 underline-offset-4 underline">
-                                <a href="/approche_acp">L'approche ACP</a>
+                                <a href="/approche_acp">Mon approche</a>
                             </p>
                             <p className="underline-offset-4 underline">
                                 <a href="/rendez-vous">Prendre rendez-vous</a>
@@ -72,7 +72,7 @@ function Footer() {
                                             d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                                     </svg>
                                 </span>
-                                steve_beahan@hane.com
+                                eleonore.gyselynck@gmail.com
                             </p>
                             <p className="mb-4 flex items-center justify-center md:justify-start">
                                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">

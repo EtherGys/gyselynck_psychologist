@@ -46,12 +46,12 @@ function AppointmentPage() {
               </div>
               <div className='my-4'>
                 <p> Mail :</p>
-                <p>steve_beahan@hane.com</p>
+                <p>eleonore.gyselynck@gmail.com</p>
               </div>
               <div className='my-4'>
                 <p> Adresse :</p>
-                <p>84 Bergstorm Canyon</p>
-                <p>5928 Royal Oak</p>
+                <p>Rue Langeweg 128</p>
+                <p>3090, Overijse</p>
               </div>
             </div>
           </div>

@@ -13,6 +13,7 @@ interface cardProps {
     content : string
     src : string
     alt : string
+    href : string
 }
 
 interface leafProps {

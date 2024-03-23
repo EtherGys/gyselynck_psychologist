@@ -27,43 +27,53 @@ function ConsultationPage() {
         <div>
           <ul className='px-8 font-roboto lg:text-xl'>
             <li className='flex mt-2'>
-              <span>
+              <span className='w-12'>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
+              <span className='w-full'>
               Pour soutenir votre rétablissement suite à des difficultés psychiques légères, modérées ou sévères ayant nécessité ou non une hospitalisation.
+              </span>
             </li>
             <li className='flex mt-2'>
-              <span>
+              <span className='w-12'>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
+              <span className='w-full'>
               Lors de changements, de difficultés de vie (deuil, séparation, maladie, burnout…) ou de questionnements existentiels.
+              </span>
             </li>
             <li className='flex mt-2'>
-              <span>
+              <span className='w-12'>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
+              <span className='w-full'>
               Pour faire face au stress, à l'anxiété, au mal-être ou encore aux addictions et dépendances.
+              </span>
             </li>
             <li className='flex mt-2'>
-              <span>
+              <span className='w-12'>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
+              <span className='w-full'>
               Lors de difficultés relationnelles et sociales (harcèlement, phobie scolaire, …)
+              </span>
             </li>
             <li className='flex mt-2'>
-              <span>
+              <span className='w-12'>
                 <img src="assets/icons/up-arrow.png" alt="plop" className='rotate-90 mr-4' width={30} />
               </span>
+              <span className='w-full'>
               Afin de (re)trouver votre propre chemin.
+              </span>
             </li>
           </ul>
           <div className='text-center mt-2 sm:mt-6'>
-            <GrayBorderButton href="/rendez-vous" content='Prendre rendez-vous' />
+            <GrayBorderButton href="/doctoranytime" content='Prendre rendez-vous' />
           </div>
         </div>
       </div>
-      <div id="consultation_type" className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0'>
-        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
+      <div className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0'>
+        <div id="consultation_adulte" className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adulte / jeune adulte
@@ -73,7 +83,7 @@ function ConsultationPage() {
             </p>
           </div>
         </div>
-        <div className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
+        <div id="consultation_adolescent" className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adolescent.e
@@ -88,6 +98,17 @@ function ConsultationPage() {
         Le saviez-vous ?
         Il est rare que l'adolescent.e entreprenne seul.e la démarche de demander une aide psychologique. L'adolescence est une période de bouleversements émotionnels, sociaux et physiques qui résonnent souvent au sein de la sphère familiale. Les changements observés chez les adolescents peuvent se manifester à travers des comportements extrêmes, suscitant parfois des inquiétudes au sein de leur entourage.
       </p>
+        <p className='mt-14 sm:text-xl lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
+          Dans ma pratique, je m'engage à
+          <span className='font-bold'>
+            {' '} éliminer {' '}
+          </span>
+          les obstacles  au maximum et à rendre le suivi
+          <span className='font-bold'>
+            {' '} accessible {' '}
+          </span>
+          à toute personne en demande d'un accompagnement.
+        </p>
       <div className="w-[80%] mt-8 mb-24 mx-auto">
         <div >
           <p className='text-end text-2xl font-montserrat underline-offset-[35px] underline decoration-2 my-20 border-t-2 border-black pt-10'>
@@ -139,17 +160,6 @@ function ConsultationPage() {
             </span>
           </div>
         </div>
-        <p className='mt-14 sm:text-xl lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
-          Dans ma pratique, je m'engage à
-          <span className='font-bold'>
-            {' '} éliminer {' '}
-          </span>
-          les obstacles  au maximum et à rendre le suivi
-          <span className='font-bold'>
-            {' '} accessible {' '}
-          </span>
-          à toute personne en demande d'un accompagnement.
-        </p>
       </div>
     </main>
   )

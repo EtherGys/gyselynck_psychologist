@@ -21,9 +21,8 @@ function HeroMenu() {
                             <h3 className='mt-6 md:text-sm lg:text-base'>
                                 Consultations à Overijse et en ligne
                             </h3>
-                            <div className='lg:flex hidden mt-6'>
-
-                                <GreenFullButton href='/rendez-vous' content="Prendre rendez-vous" />
+                            <div className='lg:flex hidden mt-6 justify-center'>
+                                <GreenFullButton href='/doctoranytime' content="Prendre rendez-vous" />
                             </div>
                         </div>
                     </div>

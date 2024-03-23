@@ -47,7 +47,9 @@ function EducationPage() {
                 Qui m'autorise à porter le titre de psychologue. De plus, je dispose d'un visa délivré par le SPF Santé Publique, permettant l'exercice de la profession de psychologue clinicien (340878), ainsi que d'un agrément de la Fédération Wallonie-Bruxelles autorisant l'utilisation du titre de psychologue clinicien.
               </p>
               <div className='mt-6 flex flex-row justify-between'>
+                <div className='w-[80%]'>
                 <img src="assets/icons/logo_cp.png" alt="Logo de la commission des psychologues" width={240} />
+                </div>
                 <img src="assets/icons/bfp-logo.webp" alt="Logo de la Fédération Belge des Psychologues" width={40} />
               </div>
             </div>

@@ -13,7 +13,7 @@ function PresentationText() {
                     </a>
                 </p>
                 <p>
-                    J'accorde une importance primordiale à la compréhension et au respect de votre expérience personnelle, de vos valeurs et de votre désir de croissance personnelle. C'est dans cet esprit que je vous offre un espace sécurisé où vous pouvez explorer diverses problématiques, que ce soit pour un questionnement, une recherche de sens, une souffrance, des difficultés psychiques ayant nécessité ou non une hospitalisation. Mon engagement est de vous accompagner avec empathie et professionnalisme dans votre parcours vers le changement.
+                    J'accorde une importance primordiale à la compréhension et au respect de votre expérience, de vos valeurs et de votre désir de croissance personnelle. C'est dans cet esprit que je vous offre un espace sécurisé où vous pouvez explorer diverses problématiques, que ce soit pour un questionnement, une recherche de sens, une souffrance, des difficultés psychiques ayant nécessité ou non une hospitalisation. Mon engagement est de vous accompagner avec empathie et professionnalisme dans votre parcours vers le changement.
                 </p>
                 <div className='flex flex-row justify-center my-6'>
 

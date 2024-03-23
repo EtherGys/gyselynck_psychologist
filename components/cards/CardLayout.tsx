@@ -13,12 +13,14 @@ function CardLayout() {
                     content="Je vous reçois pour des entretiens individuels. La fréquence et la durée du suivi resteront à définir ensemble. La thérapie se déroule dans une relation dynamique et interactive."
                     src='assets/icons/family.png'
                     alt='Icônes représentant des adultes'
+                    href="/consultations#consultation_adulte"
                 />
                 <Card
                     title="Consultation adolescent.e"
                     content="Je t'accompagne à partir de 15 ans, en te proposant un espace qui te sera dédié et en tenant compte de tes besoins et des spécificités de ton parcours à toi."
                     src='assets/icons/siblings.png'
                     alt='Icônes représentant des adultes'
+                    href="/consultations#consultation_adolescent"
                 />
       
             </div>

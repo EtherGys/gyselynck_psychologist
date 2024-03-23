@@ -1,7 +1,7 @@
 import React from 'react'
 import GrayBorderButton from '../buttons/GrayBorderButton'
 
-function Card({ title, content, src, alt }: cardProps) {
+function Card({ title, content, src, alt, href }: cardProps) {
     return (
         <div className="max-w-sm overflow-hidden shadow-lg bg-white p-8 rounded-2xl my-8 lg:my-0">
             <img className="w-[120px] mx-auto" src={src} alt={alt} />
@@ -11,7 +11,7 @@ function Card({ title, content, src, alt }: cardProps) {
                     {content}
                 </p>
                 <div className='text-center mt-8'>
-                    <GrayBorderButton href="/consultations#consultation_type" content="+ d'infos" />
+                    <GrayBorderButton href={href} content="+ d'infos" />
                 </div>
             </div>
         </div>
