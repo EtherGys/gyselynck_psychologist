@@ -12,7 +12,7 @@ function Footer() {
                             <h6
                                 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                                 <span className="me-3 [&>svg]:h-4 [&>svg]:w-4">
-                                <img className='w-6 h-6' src="/assets/logos/logo_yellow_on_black.png" alt="logo d'Éléonore Gyselynck" />
+                                    <img className='w-6 h-6' src="/assets/logos/logo_yellow_on_black.png" alt="logo d'Éléonore Gyselynck" />
                                 </span>
                                 Éléonore Gyselynck
                             </h6>
@@ -21,8 +21,10 @@ function Footer() {
                             </p>
                             <div className="px-4 pt-6">
                                 <h3 className="text-lg font-semibold">ADRESSE</h3>
-                                <p className="mt-1">rue Langeweg 128,</p>
-                                <p className="mt-1">3090, Overijse</p>
+                                <a href="https://maps.app.goo.gl/q74f2ZcP68GGd2Rt9" rel="noopener noreferrer" target='_blank'>
+                                    <p className="mt-1 underline">rue Langeweg 128,</p>
+                                    <p className="mt-1 underline">3090, Overijse</p>
+                                </a>
                             </div>
                         </div>
                         <div>
@@ -72,7 +74,9 @@ function Footer() {
                                             d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                                     </svg>
                                 </span>
-                                eleonore.gyselynck@gmail.com
+                                <a href="mailto:eleonore.gyselynck@gmail.com" className='underline'>
+                                    eleonore.gyselynck@gmail.com
+                                </a>
                             </p>
                             <p className="mb-4 flex items-center justify-center md:justify-start">
                                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -86,7 +90,9 @@ function Footer() {
                                             clipRule="evenodd" />
                                     </svg>
                                 </span>
-                                0400 00 00 00
+                                <a href="tel:0400000000" className='underline'>
+                                    0400 00 00 00
+                                </a>
                             </p>
                         </div>
                     </div>

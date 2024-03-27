@@ -29,7 +29,11 @@ function MapLayout() {
                     </div>
                     <div className="px-4 py-4">
                       <div className="text-lg font-semibold text-gray-900">TÉLÉPHONE</div>
-                      <p className="mt-1 text-gray-600">0400 00 00</p>
+                      <a href="tel:0400000000">
+                        <p className="mt-1 text-gray-600 underline">
+                          0400 00 00
+                        </p>
+                      </a>
                     </div>
                   </div>
                   <div className='flex flex-row'>
@@ -41,8 +45,11 @@ function MapLayout() {
                     </div>
                     <div className="px-4 py-4">
                       <div className="text-lg font-semibold text-gray-900">MAIL</div>
-                      <p className="mt-1 text-gray-600">eleonore.gyselynck@gmail.com</p>
-
+                      <a href="mailto:eleonore.gyselynck@gmail.com">
+                        <p className="mt-1 text-gray-600 underline">
+                          eleonore.gyselynck@gmail.com
+                        </p>
+                      </a>
                     </div>
                   </div>
                   <div className='flex flex-row'>
@@ -55,8 +62,10 @@ function MapLayout() {
                     </div>
                     <div className="px-4 lg:pb-4 pb-8">
                       <div className="text-lg font-semibold text-gray-900">ADRESSE</div>
-                      <p className="mt-1 text-gray-600">rue Langeweg 128,</p>
-                      <p className="mt-1 text-gray-600">3090, Overijse</p>
+                      <a href="https://maps.app.goo.gl/q74f2ZcP68GGd2Rt9" rel="noopener noreferrer" target='_blank'>
+                        <p className="mt-1 text-gray-600 underline">rue Langeweg 128,</p>
+                        <p className="mt-1 text-gray-600 underline">3090, Overijse</p>
+                      </a>
                     </div>
                   </div>
                 </div>

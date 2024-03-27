@@ -34,24 +34,30 @@ function AppointmentPage() {
           <div className='flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px] bg-[#E7A100] text-black'>
             <p className='px-10 text-justify'>
               Pour toute question ou
-              renseignements vous pouvez me joindre par par
+              renseignements vous pouvez me joindre par
               téléphone, email ou sms.
             </p>
           </div>
           <div className='flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px] bg-[#E7A100] text-black'>
             <div className='text-center'>
               <div className='my-4'>
-                <p>Téléphone :</p>
-                <p>0400 00 00 00</p>
+                <p className='font-bold text-xl'>Téléphone</p>
+                <a href="tel:0400000000" className='underline'>
+                  <p>0400 00 00 00</p>
+                </a>
               </div>
               <div className='my-4'>
-                <p> Mail :</p>
-                <p>eleonore.gyselynck@gmail.com</p>
+                <p className='font-bold text-xl'> Mail</p>
+                <a href="mailto:eleonore.gyselynck@gmail.com" className='underline'>
+                  <p>eleonore.gyselynck@gmail.com</p>
+                </a>
               </div>
               <div className='my-4'>
-                <p> Adresse :</p>
-                <p>Rue Langeweg 128</p>
-                <p>3090, Overijse</p>
+                <p className='font-bold text-xl'> Adresse</p>
+                <a href="https://maps.app.goo.gl/q74f2ZcP68GGd2Rt9" rel="noopener noreferrer" target='_blank'>
+                  <p className='underline'>Rue Langeweg 128</p>
+                  <p className='underline'>3090, Overijse</p>
+                </a>
               </div>
             </div>
           </div>
