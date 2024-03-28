@@ -67,7 +67,7 @@ function ConsultationPage() {
               </span>
             </li>
           </ul>
-          <div className='text-center mt-2 sm:mt-6'>
+          <div className='text-center mt-6 sm:mt-6'>
             <GrayBorderButton href="/doctoranytime" content='Prendre rendez-vous' />
           </div>
         </div>
