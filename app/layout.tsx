@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "@/components/layout/navbar/Nav";
 import Footer from "@/components/layout/footer/Footer";
 import BackToTop from "@/components/layout/button/BackToTop";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="G-7N2MZD1ML6" />
       <body className="">
         <Nav />
         {children}
-        <BackToTop/>
-        <Footer/>
+        <BackToTop />
+        <Footer />
       </body>
     </html>
   );
