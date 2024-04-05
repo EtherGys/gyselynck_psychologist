@@ -22,8 +22,8 @@ function Footer() {
                             <div className="px-4 pt-6">
                                 <h3 className="text-lg font-semibold">ADRESSE</h3>
                                 <a href="https://maps.app.goo.gl/q74f2ZcP68GGd2Rt9" rel="noopener noreferrer" target='_blank'>
-                                    <p className="mt-1 underline">rue Langeweg 128,</p>
-                                    <p className="mt-1 underline">3090, Overijse</p>
+                                    <p className="mt-1">rue Langeweg 128,</p>
+                                    <p className="mt-1">3090, Overijse</p>
                                 </a>
                             </div>
                         </div>

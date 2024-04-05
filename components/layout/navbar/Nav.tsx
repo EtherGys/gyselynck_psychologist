@@ -65,7 +65,7 @@ function Nav() {
                 {/* burger menu */}
                 <div className='flex justify-between w-full bg-[#292222]'>
                     <a href="/" className="text-white ml-4 py-2">
-                        <p className="self-center text-sm">Éléonore Gyselynck</p>
+                        <p className="self-center text-base"><img className='w-3 h-3 mt-1 mr-2' src="/assets/logos/logo_black_on_white.png" alt="logo d'Éléonore Gyselynck" />Éléonore Gyselynck</p>
                         <p className="self-center text-xs">Psychologue clinicienne agréée</p>
                     </a>
                     <div onClick={() => { setToggleDropdown((prev) => !prev) }} className='mr-4 my-auto w-6 h-6 z-50'>

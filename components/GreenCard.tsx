@@ -21,7 +21,7 @@ function GreenCard({ whiteTitle, greenTitle, contentp1, contentp2, buttonTitle, 
                         {contentp2}
                     </p>
                 </div>
-                <div className=" m-auto p-4 flex flex-col justify-between text-center leading-normal">
+                <div className=" m-auto mt-6 md:mt-0 p-4 flex flex-col justify-between text-center leading-normal">
                     <GreenBorderButton href={href} content={buttonTitle} />
                 </div>
             </div>
