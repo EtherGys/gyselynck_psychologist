@@ -58,18 +58,18 @@ function ACPPage() {
         <h4 className='font-montserrat lg:text-xl '>Quelques liens pour aller plus loin :</h4>
         <ul>
           <li className='ml-6 py-4'>
-            <a href="/" className='text-blue-600 underline'>
-              link
+            <a target='_blank' href="https://www.youtube.com/watch?v=C_R3a4IvblQ" className='text-blue-600 underline'>
+              "Qu'est-ce que l'Approche Centrée sur la Personne ?" - Vidéo de l'ACP France
             </a>
           </li>
           <li className='ml-6 py-4'>
-            <a href="/" className='text-blue-600 underline'>
-              link
+            <a target='_blank' href="https://www.afpc.be/l-acp/" className='text-blue-600 underline'>
+            "L'Approche Centrée sur la Personne en quelques mots" - Association Francophone de Psychothérapie Centrée sur la Personne
             </a>
           </li>
           <li className='ml-6 py-4'>
-            <a href="/" className='text-blue-600 underline'>
-              link
+            <a target='_blank' href="https://www.acpfrance.fr/quest-ce-que-lapproche-centree-sur-la-personne/" className='text-blue-600 underline'>
+           "Qu'est-ce que l'Approche Centrée sur la Personne ?" - Institut Français de Formation à l'Approche Centrée sur la Personne selon Carl Rogers
             </a>
           </li>
 

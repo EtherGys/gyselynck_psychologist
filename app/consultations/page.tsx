@@ -7,7 +7,7 @@ function ConsultationPage() {
   return (
     <main className='flex flex-col xl:w-[70%] mx-auto'>
       <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
-        <LeafImage src="assets/images/doctor.jpg" alt="Photo d'Éléonore Gyselynck" />
+        <LeafImage src="assets/images/study.jpg" alt="Photo d'Éléonore Gyselynck" />
         <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content='Venir en consultation' />
         </div>
@@ -68,19 +68,22 @@ function ConsultationPage() {
             </li>
           </ul>
           <div className='text-center mt-6 sm:mt-6'>
-            <GrayBorderButton href="/doctoranytime" content='Prendre rendez-vous' />
+            <GrayBorderButton target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" content='Prendre rendez-vous' />
           </div>
         </div>
       </div>
-      <div className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0'>
-        <div id="consultation_adulte" className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
+      <div className='flex flex-col lg:flex-row justify-around my-20 font-montserrat m-auto lg:mx-0 w-[80%] lg:w-full'>
+        <div id="consultation_adulte" className="sm:w-[80%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mb-8 lg:mb-0">
           <div className="py-4">
             <h4 className="font-bold text-xl mb-2 text-center">
               Consultation adulte / jeune adulte
             </h4>
             <p className="text-gray-700 text-xl text-center mt-10">
-              Je vous reçois pour des entretiens individuels. La fréquence et la durée du suivi resteront à définir ensemble. La thérapie se déroule dans une relation dynamique et interactive. Je vous accompagne à votre rythme, dans le respect de vos valeurs et de vos choix.
-            </p>
+            Chaque séance s'inscrit dans une relation vivante et interactive, où l'échange et la collaboration favorisent votre cheminement personnel.
+             </p>
+            <p className="text-gray-700 text-xl text-center mt-10">
+            Je vous propose des séances individuelles, dont la fréquence et la durée de l'accompagnement sont définies conjointement, afin de respecter vos attentes et votre rythme.
+             </p>
           </div>
         </div>
         <div id="consultation_adolescent" className="sm:w-[90%] sm:mx-auto sm:rounded-2xl lg:max-w-md xl:max-w-sm overflow-hidden lg:shadow-lg bg-[#689F38]/10 p-8 lg:rounded-2xl mt-8 lg:mt-0">
@@ -94,10 +97,6 @@ function ConsultationPage() {
           </div>
         </div>
       </div>
-      <p className='my-8 font-semibold w-[80%] mx-auto font-roboto text-xl'>
-        Le saviez-vous ?
-        Il est rare que l'adolescent.e entreprenne seul.e la démarche de demander une aide psychologique. L'adolescence est une période de bouleversements émotionnels, sociaux et physiques qui résonnent souvent au sein de la sphère familiale. Les changements observés chez les adolescents peuvent se manifester à travers des comportements extrêmes, suscitant parfois des inquiétudes au sein de leur entourage.
-      </p>
         <p className='mt-14 sm:text-xl lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
           Dans ma pratique, je m'engage à
           <span className='font-bold'>
@@ -135,7 +134,7 @@ function ConsultationPage() {
 
             </span>
             <span>
-              Le paiement peut se faire en espèces ou par paiement mobile (appli Bancontact) ou par virement.
+              Le paiement peut se faire en espèces ou par paiement mobile (application Payconiq).
             </span>
           </div>
           <div className='flex flex-row'>
@@ -156,7 +155,7 @@ function ConsultationPage() {
               </svg>
             </span>
             <span>
-              La consultation est ouverte à partir de 15 ans. La consultation n'est pas ouverte aux familles, ou aux couples sauf de manière occasionnelle et définie
+              La consultation est ouverte à partir de 15 ans. La consultation n'est pas ouverte aux familles, ou aux couples, sauf de manière occasionnelle et définie.
             </span>
           </div>
         </div>

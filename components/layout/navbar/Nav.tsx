@@ -18,18 +18,18 @@ function Nav() {
             <nav className="bg-white border-gray-200 dark:bg-gray-900 md:flex hidden">
                 <div className="flex flex-wrap justify-between w-screen items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="text-[#292222]">
-                        <p className="self-center text-2xl font-semibold flex"><img className='w-6 h-6 mt-1 mr-2' src="/assets/logos/logo_black_on_white.png" alt="logo d'Éléonore Gyselynck" />Éléonore Gyselynck</p>
+                        <p className="self-center text-2xl font-semibold flex"><img className='w-6 h-6 mt-1 mr-2' src="/assets/logos/logo_black_on_white.png" alt="logo d'Éléonore Gyselynck" />Eléonore Gyselynck</p>
                         <p className="self-center text-xl font-semibold">Psychologue clinicienne agréée</p>
                     </a>
                     <div className="flex items-center space-x-6 rtl:space-x-reverse">
-                        <GreenBorderButton href='/doctoranytime' content='Prendre rendez-vous'/>
-                        <a  href="tel:0400000000">
+                        <GreenBorderButton target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" content='Prendre rendez-vous'/>
+                        <a  href="tel:0460214773">
                         <button type="button" className="py-4 px-8  flex flex-row text-white bg-[#9CCC65] hover:bg-[#BBE090] focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm text-center me-2 mb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                             </svg>
                             <span className=''>
-                                0400 00 00 00
+                            0460 21 47 73
                             </span>
                         </button>
                         </a>
@@ -65,7 +65,7 @@ function Nav() {
                 {/* burger menu */}
                 <div className='flex justify-between w-full bg-[#292222]'>
                     <a href="/" className="text-white ml-4 py-2">
-                        <p className="self-center text-base"><img className='w-3 h-3 mt-1 mr-2' src="/assets/logos/logo_black_on_white.png" alt="logo d'Éléonore Gyselynck" />Éléonore Gyselynck</p>
+                        <p className="self-center text-base"><img className='w-3 h-3 mt-1 mr-2' src="/assets/logos/logo_white_on_black.png" alt="logo d'Éléonore Gyselynck" />Eléonore Gyselynck</p>
                         <p className="self-center text-xs">Psychologue clinicienne agréée</p>
                     </a>
                     <div onClick={() => { setToggleDropdown((prev) => !prev) }} className='mr-4 my-auto w-6 h-6 z-50'>

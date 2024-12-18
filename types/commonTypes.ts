@@ -1,6 +1,7 @@
 interface buttonProps {
     content: string
     href: string
+    target?: string
 }
 
 interface contentProps {

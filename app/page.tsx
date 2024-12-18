@@ -12,7 +12,6 @@ export default function Home() {
         <PresentationText />
         <GreenCard href='/consultations' buttonTitle="En savoir plus" whiteTitle="VENIR" greenTitle="EN CONSULTATION" contentp1="Je vous reçois dans le cadre d'une demande de soutien ponctuel ou d'un travail thérapeutique à plus long terme." contentp2="Mon approche, fondée sur le non-jugement et la construction d'une relation de confiance, vous promet un accueil sans distinction d'orientation sexuelle, de genre, d'appartenance religieuse ou culturelle." />
         <CardLayout />
-        test
         <div className="mt-14 lg:mt-[300px] xl:mt-[150px]">
         <MapLayout />
         </div>

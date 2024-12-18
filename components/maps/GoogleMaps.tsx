@@ -12,8 +12,8 @@ const MobileContainerStyle = {
 };
 
 const center = {
-  lat: 50.7459,
-  lng: 4.505416
+  lat: 50.745909,
+  lng: 4.505145
 };
 // const center = useMemo(() => ({
 //   lat: 50.7459,
