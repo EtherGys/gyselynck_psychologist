@@ -23,21 +23,21 @@ const center = {
 
 function GoogleMaps() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyAnrzJEyo8bpuo_yB-BaM8YQXkdnS2bGK0"
+    googleMapsApiKey: "AIzaSyB7Lzy2xL0MDsxlnMU9oXB0tat7M7DJSq0"
   })
 
-  //   const [map, setMap] = useState(null)
+    const [map, setMap] = useState(null)
 
-  //   const onLoad = useCallback(function callback(map: any) {
-  //     const bounds = new window.google.maps.LatLngBounds(center);
-  //     map.fitBounds(bounds);
+    const onLoad = useCallback(function callback(map: any) {
+      const bounds = new window.google.maps.LatLngBounds(center);
+      map.fitBounds(bounds);
 
-  //     setMap(map)
-  //   }, [])
+      setMap(map)
+    }, [])
 
-  //   const onUnmount = useCallback(function callback(map: any) {
-  //     setMap(null)
-  //   }, [])
+    const onUnmount = useCallback(function callback(map: any) {
+      setMap(null)
+    }, [])
 
   return isLoaded ? (<>
     <div className='sm:hidden flex'>
@@ -60,6 +60,7 @@ function GoogleMaps() {
         <Marker position={center} />
       </GoogleMap>
     </div>
+    
   </>
   ) : <></>
 }
