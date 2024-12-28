@@ -86,10 +86,10 @@ function Footer() {
                   </svg>
                 </span>
                 <a
-                  href="mailto:eleonore.gyselynck@hotmail.com"
+                  href="mailto:eleonore.gyselynck@gmail.com"
                   className="underline"
                 >
-                  eleonore.gyselynck@hotmail.com
+                  eleonore.gyselynck@gmail.com
                 </a>
               </p>
               <p className="mb-4 flex items-center justify-center md:justify-start">

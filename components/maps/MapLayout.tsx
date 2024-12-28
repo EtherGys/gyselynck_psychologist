@@ -76,9 +76,9 @@ function MapLayout() {
                       <div className="text-lg font-semibold text-gray-900">
                         MAIL
                       </div>
-                      <a href="mailto:eleonore.gyselynck@hotmail.com">
+                      <a href="mailto:eleonore.gyselynck@gmail.com">
                         <p className="mt-1 text-gray-600 underline">
-                          eleonore.gyselynck@hotmail.com
+                          eleonore.gyselynck@gmail.com
                         </p>
                       </a>
                     </div>

@@ -1,5 +1,7 @@
 import PageTitle from '@/components/PageTitle'
 import GrayBorderButton from '@/components/buttons/GrayBorderButton'
+import GreenBorderButton from '@/components/buttons/GreenBorderButton'
+import GreenFullButton from '@/components/buttons/GreenFullButton'
 import LeafImage from '@/components/leaves/LeafImage'
 import React from 'react'
 
@@ -7,7 +9,7 @@ function ConsultationPage() {
   return (
     <main className='flex flex-col xl:w-[70%] mx-auto'>
       <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
-        <LeafImage src="assets/images/study.jpg" alt="Photo d'Éléonore Gyselynck" />
+        <LeafImage src="assets/images/porte.jpeg" alt="Photo d'Éléonore Gyselynck" />
         <div className='lg:absolute lg:top-32 lg:left-60'>
           <PageTitle content='Venir en consultation' />
         </div>
@@ -67,8 +69,12 @@ function ConsultationPage() {
               </span>
             </li>
           </ul>
-          <div className='text-center mt-6 sm:mt-6'>
-            <GrayBorderButton target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" content='Prendre rendez-vous' />
+          <div className='mt-6 sm:mt-6 text-center lg:text-left'>
+            <a target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" >
+            <button type="button" className="drop-shadow-lg lg:w-[50%]  p-4 lg:p-8 bg-[#689F38] hover:bg-[#BBE090]  lg:!text-xl text-white rounded-full text-sm text-center me-2 my-8">
+            Prendre rendez-vous
+            </button>
+        </a>
           </div>
         </div>
       </div>
@@ -97,7 +103,7 @@ function ConsultationPage() {
           </div>
         </div>
       </div>
-        <p className='mt-14 sm:text-xl lg:w-[90%] mx-auto text-center font-montserrat text-2xl'>
+        <p className='mt-14 sm:text-xl w-[90%] mx-auto text-center font-montserrat text-2xl'>
           Dans ma pratique, je m'engage à
           <span className='font-bold'>
             {' '} éliminer {' '}
