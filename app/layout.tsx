@@ -20,7 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="G-7N2MZD1ML6" />
+      
+      <GoogleTagManager gtmId="GTM-T4WZLGPH" />
       <body className="">
         <Nav />
         {children}
