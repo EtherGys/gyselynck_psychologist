@@ -26,7 +26,7 @@ function AppointmentPage() {
     className="z-0 lg:h-[50%] object-cover h-[800px]"
     />
     </div>
-    <div className="absolute lg:static xl:absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around right-36 md:right-60 lg:right-32 xl:right-0 xl:w-full">
+    <div className="absolute lg:static xl:absolute -top-32 lg:top-2/4 z-10 flex flex-col lg:flex-row justify-around left-10 md:right-60 md:left-0 lg:right-32 xl:right-0 xl:w-full">
     <div className="flex items-center justify-center my-6 lg:my-0 rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px] w-[295px] h-[310px] bg-[#E7A100] text-black">
     <p className="px-10 text-justify">
     Je vous demande de prévenir le plus tôt possible en cas de
@@ -73,7 +73,11 @@ function AppointmentPage() {
     </div>
     </div>
     <div className='text-center mt-6 sm:mt-6'>
-    <GreenFullButton target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" content='Prendre rendez-vous' />
+    <a target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" >
+            <button type="button" className="drop-shadow-lg lg:w-[50%]  p-4 lg:p-8 bg-[#689F38] hover:bg-[#BBE090]  lg:!text-xl text-white rounded-full text-sm text-center me-2 my-8">
+            Prendre rendez-vous
+            </button>
+        </a>
     </div>
     <div>
     <GreenCard
