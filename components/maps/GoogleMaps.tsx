@@ -15,29 +15,14 @@ const center = {
   lat: 50.745909,
   lng: 4.505145
 };
-// const center = useMemo(() => ({
-//   lat: 50.7459,
-//   lng: 4.505416
-// }), []);
+
 
 
 function GoogleMaps() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyB7Lzy2xL0MDsxlnMU9oXB0tat7M7DJSq0"
+    googleMapsApiKey: "AIzaSyAnrzJEyo8bpuo_yB-BaM8YQXkdnS2bGK0"
   })
 
-    const [map, setMap] = useState(null)
-
-    const onLoad = useCallback(function callback(map: any) {
-      const bounds = new window.google.maps.LatLngBounds(center);
-      map.fitBounds(bounds);
-
-      setMap(map)
-    }, [])
-
-    const onUnmount = useCallback(function callback(map: any) {
-      setMap(null)
-    }, [])
 
   return isLoaded ? (<>
     <div className='sm:hidden flex'>
@@ -60,7 +45,6 @@ function GoogleMaps() {
         <Marker position={center} />
       </GoogleMap>
     </div>
-    
   </>
   ) : <></>
 }
