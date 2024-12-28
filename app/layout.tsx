@@ -11,7 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Eléonore Gyselynck, psychologue clinicienne agréée",
   description: "Consultations à Overijse et en ligne",
+  
 };
+
 
 export default function RootLayout({
   children,
@@ -20,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
+      <meta name="google-site-verification" content="AFTCKecJ0K8dkJRPUjHe4y_IuE0ESFLFQFDm8W0FQf8" />
       <GoogleTagManager gtmId="GTM-T4WZLGPH" />
       <body className="">
         <Nav />
