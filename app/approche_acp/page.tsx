@@ -1,7 +1,15 @@
 import PageTitle from '@/components/PageTitle'
 import GrayBorderButton from '@/components/buttons/GrayBorderButton'
 import LeafImage from '@/components/leaves/LeafImage'
+import { Metadata } from 'next';
 import React from 'react'
+
+
+export const metadata: Metadata = {
+  title: 'Approche Centrée sur la Personne',
+  description: "Méthode de psychothérapie s'apppuant sur la tendance naturelle de tout être humain à se réaliser en tant que personne : c'est la tendance actualisante"
+};
+
 
 function ACPPage() {
   return (

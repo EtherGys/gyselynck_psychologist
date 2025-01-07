@@ -2,7 +2,13 @@ import GreenCard from '@/components/GreenCard'
 import PageTitle from '@/components/PageTitle'
 import GrayBorderButton from '@/components/buttons/GrayBorderButton'
 import LeafImage from '@/components/leaves/LeafImage'
+import { Metadata } from 'next'
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'Formation professionnelle en psychologie',
+  description: "Psychologue clinicienne dans diverses institutions"
+};
 
 function EducationPage() {
   return (

@@ -21,7 +21,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
+          <meta name="description" content="Consultations à Overijse et en ligne"></meta>
+          <meta name="keywords" content="psychologue, overijse, adolescent, adulte, certifié" />
       <meta name="google-site-verification" content="AFTCKecJ0K8dkJRPUjHe4y_IuE0ESFLFQFDm8W0FQf8" />
       <GoogleTagManager gtmId="GTM-T4WZLGPH" />
       <body className="">

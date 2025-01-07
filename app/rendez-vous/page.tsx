@@ -3,7 +3,14 @@ import PageTitle from "@/components/PageTitle";
 import GrayBorderButton from "@/components/buttons/GrayBorderButton";
 import GreenFullButton from "@/components/buttons/GreenFullButton";
 import MapLayout from "@/components/maps/MapLayout";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: 'Prendre rendez-vous',
+  description: "Toutes les informations nécessaires pour prendre un rendez-vous"
+};
+
 
 function AppointmentPage() {
   return (

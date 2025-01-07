@@ -3,7 +3,15 @@ import GrayBorderButton from '@/components/buttons/GrayBorderButton'
 import GreenBorderButton from '@/components/buttons/GreenBorderButton'
 import GreenFullButton from '@/components/buttons/GreenFullButton'
 import LeafImage from '@/components/leaves/LeafImage'
+import { Metadata } from 'next'
 import React from 'react'
+
+
+
+export const metadata: Metadata = {
+  title: 'Venir en consultation',
+  description: "Tout ce dont vous avez besoin pour venir en consultation"
+};
 
 function ConsultationPage() {
   return (
