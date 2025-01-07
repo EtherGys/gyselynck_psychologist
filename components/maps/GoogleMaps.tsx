@@ -20,7 +20,7 @@ const center = {
 
 function GoogleMaps() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyAnrzJEyo8bpuo_yB-BaM8YQXkdnS2bGK0"
+    googleMapsApiKey: ""
   })
 
 

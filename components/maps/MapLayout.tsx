@@ -24,7 +24,7 @@ function MapLayout() {
             </div>
           </div>
           <div className="mt-8 lg:mt-20">
-            <div className="flex flex-col lg:flex-row lg:justify-between items-center ">
+            <div className="flex flex-col lg:flex-row lg:justify-center items-center ">
               <div>
                 <div className="mx-auto overflow-hidden ">
                   <div className="flex flex-row">
@@ -126,7 +126,7 @@ function MapLayout() {
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <GoogleMaps />
+                {/* <GoogleMaps /> */}
               </div>
             </div>
           </div>
