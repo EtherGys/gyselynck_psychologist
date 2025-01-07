@@ -17,7 +17,7 @@ function Nav() {
         <div className='font-roboto'>
             <nav className="bg-white border-gray-200 dark:bg-gray-900 md:flex hidden">
                 <div className="flex flex-wrap justify-between w-screen items-center mx-auto max-w-screen-xl p-4">
-                    <a href="/" className="text-[#292222]">
+                    <a  rel="canonical" href="https://eleonore-gyselynck-psychologue.com/" className="text-[#292222]">
                         <p className="self-center text-2xl font-semibold flex"><img className='w-6 h-6 mt-1 mr-2' src="/assets/logos/logo_black_on_white.png" alt="logo d'Éléonore Gyselynck" />Eléonore Gyselynck</p>
                         <p className="self-center text-xl font-semibold">Psychologue clinicienne agréée</p>
                     </a>
@@ -41,7 +41,7 @@ function Nav() {
                     <div className="">
                         <ul className="flex flex-row justify-around text-white">
                             <li className={pathname == "/" ? selectedLinkstyle : generalLinkstyle}>
-                                <a href="/" aria-current="page">Accueil</a>
+                                <a  rel="canonical" href="https://eleonore-gyselynck-psychologue.com/" aria-current="page">Accueil</a>
                             </li>
                             <li className={pathname == "/formation" ? selectedLinkstyle : generalLinkstyle}>
                                 <a href="/formation">Ma formation</a>
@@ -64,7 +64,7 @@ function Nav() {
             <div className='md:hidden flex fixed z-40 w-screen'>
                 {/* burger menu */}
                 <div className='flex justify-between w-full bg-[#292222]'>
-                    <a href="/" className="text-white ml-4 py-2">
+                    <a  rel="canonical" href="https://eleonore-gyselynck-psychologue.com/" className="text-white ml-4 py-2">
                         <p className="self-center text-base"><img className='w-3 h-3 mt-1 mr-2' src="/assets/logos/logo_white_on_black.png" alt="logo d'Éléonore Gyselynck" />Eléonore Gyselynck</p>
                         <p className="self-center text-xs">Psychologue clinicienne agréée</p>
                     </a>
@@ -75,7 +75,7 @@ function Nav() {
                     </div>
                     {toggleDropdown && (
                         <div className='absolute right-0 top-full rounded-bl-lg w-[50%] p-5 bg-[#292222] min-w-[210px] flex flex-col gap-2 justify-end items-end text-white'>
-                            <Link href='/' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
+                            <Link  rel="canonical" href='https://eleonore-gyselynck-psychologue.com/' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>
                                 Accueil
                             </Link>
                             <Link href='/formation' className='my-4 text-lg' onClick={() => { setToggleDropdown(false) }}>

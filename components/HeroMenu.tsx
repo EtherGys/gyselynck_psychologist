@@ -6,7 +6,7 @@ function HeroMenu() {
     return (
         <div className="">
             <div className="relative w-full overflow-hidden md:flex hidden">
-                <img src="/assets/images/pexels-vlad.jpg" alt="Avatar" className="object-cover w-full h-[600px]" />
+                <img src="/assets/images/pexels-vlad.jpg" alt="Eleonore Gyselynck Psychologue clinicienne agréée" className="object-cover w-full h-[600px]" />
                 <div className="font-roboto absolute py-2.5 md:top-6 xl:top-16 bottom-52 left-32  rounded-tl-[15px]  rounded-bl-[120px] rounded-tr-[120px] md:w-[349px] md:h-[274px] lg:w-[437px] lg:h-[343px]    p-10 bg-white/60 text-black">
                     <div className='ml-10'>
                         <h1 className='lg:text-6xl md:text-4xl  mt-6'>
