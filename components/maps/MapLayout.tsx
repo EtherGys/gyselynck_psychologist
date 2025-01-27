@@ -6,7 +6,7 @@ function MapLayout() {
   return (
     <div className="mb-40 font-roboto drop-shadow-lg ">
       <section className="bg-gray-200 box-shadow lg:rounded-xl lg:w-[80%] xl:w-full m-auto">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+        <div className="max-w-7xl flex flex-col lg:flex-row justify-around mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           <div className="flex flex-col lg:flex-row">
             <div className="m-auto max-w-2xl lg:max-w-4xl lg:mx-auto sm:mx-auto sm:mt-10 p-4">
             <GreenFullButton
@@ -14,14 +14,13 @@ function MapLayout() {
                 content="Prendre rendez-vous en ligne"
               />
             </div>
-            <div className="m-auto max-w-2xl lg:max-w-4xl lg:mx-auto sm:mx-auto sm:mt-10 border-l-4 border-gray-500 p-4">
+            {/* <div className="m-auto max-w-2xl lg:max-w-4xl lg:mx-auto sm:mx-auto sm:mt-10 border-l-4 border-gray-500 p-4">
               <div className="text-3xl font-extrabold text-gray-900">
                 SUR RDV
               </div>
               <p className="mt-4 text-lg text-gray-500">
-                Le mardi et vendredi de 9h à 17h
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="mt-8 lg:mt-20">
             <div className="flex flex-col lg:flex-row lg:justify-center items-center ">

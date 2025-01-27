@@ -106,7 +106,7 @@ function ConsultationPage() {
               Consultation adolescent.e
             </h4>
             <p className="text-gray-700 text-xl text-center mt-10">
-              Je propose de mettre à ta disposition un espace qui t'est dédié, avec la possibilité d'inclure tes parents/tuteurs à certaines étapes de la prise en charge, selon les besoins de la situation et avec ton accord. Mon objectif est de créer un espace sécurisé où tu puisses s'exprimer librement, partager tes préoccupations et explorer des solutions, en sachant que le secret professionnel sera respecté. Ensemble, nous pourrons aborder les défis spécifiques liés à l'adolescence, que ce soit en matière d'identité, de relations, ou de gestion des émotions.
+              Je propose de mettre à ta disposition un espace qui t'est dédié, avec la possibilité d'inclure tes parents/tuteurs à certaines étapes de la prise en charge, selon les besoins de la situation et avec ton accord. Mon objectif est de créer un espace sécurisé où tu puisses t'exprimer librement, partager tes préoccupations et explorer des solutions, en sachant que le secret professionnel sera respecté. Ensemble, nous pourrons aborder toute une série de problématiques ou les défis spécifiques liés à l'adolescence, que ce soit en matière d'identité, de relations, ou de gestion des émotions.
             </p>
           </div>
         </div>
