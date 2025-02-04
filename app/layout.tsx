@@ -9,7 +9,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Eléonore Gyselynck, psychologue clinicienne agréée",
+  title: "Eléonore Gyselynck | Consultation en psychologie, psychologue clinicienne agréée",
   description: "Consultations à Overijse et en ligne",
   
 };
