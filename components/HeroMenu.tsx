@@ -21,7 +21,7 @@ function HeroMenu() {
                                 Consultations à Overijse dans mon cabinet et en visioconférence
                             </h3>
                             <div className='lg:flex hidden my-6 xl:my-4 justify-center'>
-                                <GreenFullButton target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" content="Prendre rendez-vous" />
+                                <GreenFullButton target='_blank' href="https://rosa.be/fr/hp/eleonore-gyselynck/" content="Prendre rendez-vous" />
                             </div>
                         </div>
                     </div>

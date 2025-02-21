@@ -78,7 +78,7 @@ function ConsultationPage() {
             </li>
           </ul>
           <div className='mt-6 sm:mt-6 text-center lg:text-left'>
-            <a target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse" >
+            <a target='_blank' href="https://rosa.be/fr/hp/eleonore-gyselynck/" >
             <button type="button" className="drop-shadow-lg lg:w-[50%]  p-4 lg:p-8 bg-[#689F38] hover:bg-[#BBE090]  lg:!text-xl text-white rounded-full text-sm text-center me-2 my-8">
             Prendre rendez-vous
             </button>

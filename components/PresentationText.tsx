@@ -7,7 +7,7 @@ function PresentationText() {
         <div className='flex  flex-col-reverse lg:flex-row justify-around mt-20 lg:my-20'>
             <div className='my-auto mx-8 mg:-mx-0 text-justify lg:w-[50%] font-montserrat text-xl'>
                 <p>
-                    Psychologue clinicienne agréée, je reçois des adultes et des adolescents à partir de 15 ans pour de consultations individuelles dans mon cabinet ou en <a className='underline' target="_blank" href='https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse'>vidéo-consultations</a>.
+                    Psychologue clinicienne agréée, je reçois des adultes et des adolescents à partir de 15 ans pour de consultations individuelles dans mon cabinet ou en <a className='underline' target="_blank" href='https://rosa.be/fr/hp/eleonore-gyselynck/'>vidéo-consultations</a>.
                 </p>
                 <p>
                     J'accorde une importance primordiale à la compréhension et au respect de votre expérience, de vos valeurs et de votre désir de croissance personnelle. C'est dans cet esprit que je vous offre un espace sécurisé où vous pouvez explorer diverses problématiques, que ce soit pour un questionnement, une recherche de sens, une souffrance, des difficultés psychiques ayant nécessité ou non une hospitalisation. Mon engagement est de vous accompagner avec empathie et professionnalisme dans votre parcours vers le changement.

@@ -10,7 +10,7 @@ function MapLayout() {
           <div className="flex flex-col lg:flex-row">
             <div className="m-auto max-w-2xl lg:max-w-4xl lg:mx-auto sm:mx-auto sm:mt-10 p-4">
             <GreenFullButton
-                target='_blank' href="https://progenda.be/calendars/gyselynck-eleonore-psychologie-clinique-overijse"
+                target='_blank' href="https://rosa.be/fr/hp/eleonore-gyselynck/"
                 content="Prendre rendez-vous en ligne"
               />
             </div>
