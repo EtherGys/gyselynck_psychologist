@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: "Prenez rendez-vous avec Eléonore Gyselynck, psychologue clinicienne à Overijse. Consultations en ligne et en cabinet.",
     images: [
       {
-        url: '/assets/images/pexels-rdv.jpg',
+        url: 'assets/images/cabinet_psychologue_gyselynck.jpg',
         width: 1200,
         height: 630,
         alt: 'Prise de rendez-vous consultation psychologique',
@@ -35,8 +35,8 @@ function AppointmentPage() {
       <div className="relative xl:w-[70%] mt-20 lg:w-[70%] m-auto">
         <img
           className="lg:flex hidden object-cover object-left py-2.5 bottom-52 left-32  inset-x-0 text-center rounded-bl-[120px] rounded-tl-[15px] rounded-tr-[120px]  w-[295px] h-[310px]"
-          src="assets/images/pexels-rdv.jpg"
-          alt="Photo d'une consultation"
+          src="assets/images/cabinet_psychologue_gyselynck.jpg"
+          alt="Photo du cabinet"
         />
         <div className="lg:absolute lg:top-32 lg:left-60">
           <PageTitle content="Prendre rendez-vous" />
