@@ -5,6 +5,7 @@ import GreenFullButton from '@/components/buttons/GreenFullButton'
 import LeafImage from '@/components/leaves/LeafImage'
 import JsonLd, { consultationJsonLd } from '@/components/JsonLd'
 import ClientBreadcrumb from '@/components/ClientBreadcrumb'
+import GoogleReviews from '@/components/GoogleReviews'
 import { Metadata } from 'next'
 import React from 'react'
 
@@ -193,6 +194,8 @@ function ConsultationPage() {
             </div>
           </div>
         </div>
+        
+        <GoogleReviews />
       </main>
     </>
   )

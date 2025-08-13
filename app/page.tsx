@@ -4,12 +4,13 @@ import HeroMenu from "@/components/HeroMenu";
 import MapLayout from "@/components/maps/MapLayout";
 import PresentationText from "@/components/PresentationText";
 import JsonLd, { homePageJsonLd } from "@/components/JsonLd";
+import AdvancedJsonLd, { advancedHomePageJsonLd, organizationJsonLd } from "@/components/AdvancedJsonLd";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Accueil",
   description: "Bienvenue chez Eléonore Gyselynck, psychologue clinicienne agréée à Overijse. Consultations psychologiques pour adultes et adolescents. Approche centrée sur la personne et thérapie ACP.",
-  keywords: ["psychologue overijse", "consultation psychologique belgique", "thérapie adulte", "psychologue adolescent", "approche centrée personne", "ACP"],
+  keywords: ["psychologue overijse", "consultation psychologique belgique", "thérapie adulte", "psychologue adolescent", "approche centrée personne", "ACP", "psychologue clinicien agréé", "overijse psychologue", "consultation psychologique bruxelles"],
   openGraph: {
     title: "Eléonore Gyselynck - Psychologue clinicienne à Overijse",
     description: "Consultations psychologiques pour adultes et adolescents. Approche centrée sur la personne et thérapie ACP.",
@@ -30,7 +31,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      {/* Données structurées multiples pour Google */}
       <JsonLd data={homePageJsonLd} />
+      <AdvancedJsonLd data={advancedHomePageJsonLd} />
+      <AdvancedJsonLd data={organizationJsonLd} />
+      
       <div >
         <HeroMenu />
         <div className="flex flex-col xl:w-[70%] mx-auto">
