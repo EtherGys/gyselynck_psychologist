@@ -18,15 +18,6 @@ const nextConfig = {
   experimental: {
     // Optimisation du bundle
     optimizePackageImports: ['@next/font'],
-    // Amélioration des performances
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
-      },
-    },
   },
   
   // Headers de sécurité et performance
@@ -71,26 +62,6 @@ const nextConfig = {
           },
         ],
       },
-      // Cache optimisé pour les images
-      {
-        source: '/assets/images/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-      // Cache pour les icônes et logos
-      {
-        source: '/assets/icons/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
     ];
   },
   
@@ -104,9 +75,6 @@ const nextConfig = {
       },
     ];
   },
-  
-  // Optimisation du build Vercel
-  output: 'standalone',
   
   // Optimisation des performances
   swcMinify: true,
