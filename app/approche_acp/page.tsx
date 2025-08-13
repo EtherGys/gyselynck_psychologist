@@ -1,89 +1,109 @@
 import PageTitle from '@/components/PageTitle'
 import GrayBorderButton from '@/components/buttons/GrayBorderButton'
 import LeafImage from '@/components/leaves/LeafImage'
+import JsonLd, { acpJsonLd } from '@/components/JsonLd'
+import ClientBreadcrumb from '@/components/ClientBreadcrumb'
 import { Metadata } from 'next';
 import React from 'react'
 
-
 export const metadata: Metadata = {
   title: 'Approche Centrée sur la Personne',
-  description: "Méthode de psychothérapie s'apppuant sur la tendance naturelle de tout être humain à se réaliser en tant que personne : c'est la tendance actualisante"
+  description: "Découvrez l'Approche Centrée sur la Personne (ACP) de Carl Rogers. Méthode de psychothérapie humaniste basée sur la tendance actualisante. Psychologue ACP à Overijse.",
+  keywords: ["approche centrée personne", "ACP", "Carl Rogers", "psychothérapie humaniste", "tendance actualisante", "psychologue ACP overijse", "thérapie centrée personne"],
+  openGraph: {
+    title: "Approche Centrée sur la Personne - Eléonore Gyselynck",
+    description: "Découvrez l'Approche Centrée sur la Personne (ACP) de Carl Rogers. Méthode de psychothérapie humaniste basée sur la tendance actualisante.",
+    images: [
+      {
+        url: '/assets/images/carlrogersposter.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Carl Rogers et l\'Approche Centrée sur la Personne',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/approche_acp',
+  },
 };
-
 
 function ACPPage() {
   return (
-    <main className='flex flex-col xl:w-[70%] mx-auto'>
-      <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
-        <LeafImage src="assets/images/carlrogersposter.webp" alt="Photo de Carl Rogers" />
-        <div className='lg:absolute lg:top-32 lg:left-60'>
-          <PageTitle content="L'Approche Centrée sur la Personne (ACP)" />
-        </div>
-      </div>
-      <blockquote className="w-[85%] lg:w-full m-auto relative lg:border-s-4 ps-4 sm:ps-6 my-10 shadow-md">
-        <p className="text-gray-800 sm:text-xl text-justify mx-4"><em>
-          « Le sentiment de profonde solitude individuelle qui est le lot de tant de vies humaines ne peut être diminué que si l'individu prend le risque d'être davantage lui-même face aux autres. »
-        </em></p>
-        <footer className="mt-4">
-          <div className="flex items-center">
-            <div className="ms-4">
-              <div className="text-lg font-semibold text-gray-800 mb-2">Carl Rogers</div>
-            </div>
+    <>
+      <JsonLd data={acpJsonLd} />
+      <main className='flex flex-col xl:w-[70%] mx-auto'>
+        <ClientBreadcrumb />
+        <div className='relative xl:w-[70%] mt-20 lg:w-[70%] m-auto'>
+          <LeafImage src="assets/images/carlrogersposter.webp" alt="Photo de Carl Rogers" />
+          <div className='lg:absolute lg:top-32 lg:left-60'>
+            <PageTitle content="L'Approche Centrée sur la Personne (ACP)" />
           </div>
-        </footer>
-      </blockquote>
-      <h2 className='max-w-sm w-full  lg:max-w-[80%] mx-auto text-2xl lg:text-4xl font-semibold my-10 text-center font-montserrat mt-20'>
-        <span className='text-[#689F38]'>
-          L'ACP
-        </span>
-        <span>
-          , C'EST QUOI ?
-        </span>
-      </h2>
-
-      <div className='flex flex-row bg-[#689F38]/45 xl:h-[520px] text-xl font-roboto'>
-        <div className='w-[80%] m-auto py-4 lg:p-10 sm:mx-4' >
-          <p className='my-4'>
-            Il s'agit d'une
-            <span className='font-bold'>
-              {' '} méthode de psychothérapie et de la relation d'aide {' '}
-            </span>
-            développée par Carl Rogers, psychologue américain (1902-1987). Plus qu'une technique, l'Approche Centrée sur la Personne est une manière d'être, qui s'appuie sur la tendance naturelle de tout être humain à se réaliser en tant que personne, ce qu'on appelle la tendance actualisante
-          </p>
-          <p className='my-6'>
-            Les principes de la relation d'aide et de la psychothérapie mis en évidence par l'ACP font l'objet d'une intense recherche scientifique de validation quant à leur efficacité. l'ACP est l'école de thérapie la plus représentative du grand courant de la
-            <span className='font-bold'>
-              {' '} psychologie humaniste
-            </span>
-            , appelée aussi la Troisième force aux côtés de la psychanalyse et du comportementalisme.
-          </p>
         </div>
-        <div className="sm:flex hidden rounded-tr-lg rounded-br-lg m-auto">
-          <img className="object-cover rounded-tl-lg rounded-bl-lg  w-[395px] h-[360px] " src="assets/images/carl-rogers.webp" alt="Photo d'une consult de psychanalyse" />
-        </div>
-      </div>
-      <div className='border-l-4 border-[#E7A100] ml-8 pl-8 my-16'>
-        <h4 className='font-montserrat lg:text-xl '>Quelques liens pour aller plus loin :</h4>
-        <ul>
-          <li className='mx-6 py-4'>
-            <a target='_blank' href="https://www.youtube.com/watch?v=C_R3a4IvblQ" className='text-blue-600 underline'>
-              "Qu'est-ce que l'Approche Centrée sur la Personne ?" - Vidéo de l'ACP France
-            </a>
-          </li>
-          <li className='mx-6 py-4'>
-            <a target='_blank' href="https://www.afpc.be/l-acp/" className='text-blue-600 underline'>
-            "L'Approche Centrée sur la Personne en quelques mots" - Association Francophone de Psychothérapie Centrée sur la Personne
-            </a>
-          </li>
-          <li className='mx-6 py-4'>
-            <a target='_blank' href="https://www.acpfrance.fr/quest-ce-que-lapproche-centree-sur-la-personne/" className='text-blue-600 underline'>
-           "Qu'est-ce que l'Approche Centrée sur la Personne ?" - Institut Français de Formation à l'Approche Centrée sur la Personne selon Carl Rogers
-            </a>
-          </li>
+        <blockquote className="w-[85%] lg:w-full m-auto relative lg:border-s-4 ps-4 sm:ps-6 my-10 shadow-md">
+          <p className="text-gray-800 sm:text-xl text-justify mx-4"><em>
+            « Le sentiment de profonde solitude individuelle qui est le lot de tant de vies humaines ne peut être diminué que si l'individu prend le risque d'être davantage lui-même face aux autres. »
+          </em></p>
+          <footer className="mt-4">
+            <div className="flex items-center">
+              <div className="ms-4">
+                <div className="text-lg font-semibold text-gray-800 mb-2">Carl Rogers</div>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+        <h2 className='max-w-sm w-full  lg:max-w-[80%] mx-auto text-2xl lg:text-4xl font-semibold my-10 text-center font-montserrat mt-20'>
+          <span className='text-[#689F38]'>
+            L'ACP
+          </span>
+          <span>
+            , C'EST QUOI ?
+          </span>
+        </h2>
 
-        </ul>
-      </div>
-    </main>
+        <div className='flex flex-row bg-[#689F38]/45 xl:h-[520px] text-xl font-roboto'>
+          <div className='w-[80%] m-auto py-4 lg:p-10 sm:mx-4' >
+            <p className='my-4'>
+              Il s'agit d'une
+              <span className='font-bold'>
+                {' '} méthode de psychothérapie et de la relation d'aide {' '}
+              </span>
+              développée par Carl Rogers, psychologue américain (1902-1987). Plus qu'une technique, l'Approche Centrée sur la Personne est une manière d'être, qui s'appuie sur la tendance naturelle de tout être humain à se réaliser en tant que personne, ce qu'on appelle la tendance actualisante
+            </p>
+            <p className='my-6'>
+              Les principes de la relation d'aide et de la psychothérapie mis en évidence par l'ACP font l'objet d'une intense recherche scientifique de validation quant à leur efficacité. l'ACP est l'école de thérapie la plus représentative du grand courant de la
+              <span className='font-bold'>
+                {' '} psychologie humaniste
+              </span>
+              , appelée aussi la Troisième force aux côtés de la psychanalyse et du comportementalisme.
+            </p>
+          </div>
+          <div className="sm:flex hidden rounded-tr-lg rounded-br-lg m-auto">
+            <img className="object-cover rounded-tl-lg rounded-bl-lg  w-[395px] h-[360px] " src="assets/images/carl-rogers.webp" alt="Photo d'une consult de psychanalyse" />
+          </div>
+        </div>
+        <div className='border-l-4 border-[#E7A100] ml-8 pl-8 my-16'>
+          <h4 className='font-montserrat lg:text-xl '>Quelques liens pour aller plus loin :</h4>
+          <ul>
+            <li className='mx-6 py-4'>
+              <a target='_blank' href="https://www.youtube.com/watch?v=C_R3a4IvblQ" className='text-blue-600 underline'>
+                "Qu'est-ce que l'Approche Centrée sur la Personne ?" - Vidéo de l'ACP France
+              </a>
+            </li>
+            <li className='mx-6 py-4'>
+              <a target='_blank' href="https://www.afpc.be/l-acp/" className='text-blue-600 underline'>
+              "L'Approche Centrée sur la Personne en quelques mots" - Association Francophone de Psychothérapie Centrée sur la Personne
+              </a>
+            </li>
+            <li className='mx-6 py-4'>
+              <a target='_blank' href="https://www.acpfrance.fr/quest-ce-que-lapproche-centree-sur-la-personne/" className='text-blue-600 underline'>
+             "Qu'est-ce que l'Approche Centrée sur la Personne ?" - Institut Français de Formation à l'Approche Centrée sur la Personne selon Carl Rogers
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </main>
+    </>
   )
 }
 

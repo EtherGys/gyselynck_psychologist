@@ -1,7 +1,0 @@
-User-agent: *
-
-User-agent: Googlebot
-User-agent: AdsBot-Google
-
-Sitemap: https://www.eleonore-gyselynck-psychologue.com/sitemap.xml
-Sitemap: https://eleonore-gyselynck-psychologue.com/sitemap.xml

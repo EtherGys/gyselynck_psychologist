@@ -2,17 +2,35 @@ import GreenCard from '@/components/GreenCard'
 import PageTitle from '@/components/PageTitle'
 import GrayBorderButton from '@/components/buttons/GrayBorderButton'
 import LeafImage from '@/components/leaves/LeafImage'
+import ClientBreadcrumb from '@/components/ClientBreadcrumb'
 import { Metadata } from 'next'
 import React from 'react'
 
 export const metadata: Metadata = {
   title: 'Formation professionnelle en psychologie',
-  description: "Psychologue clinicienne dans diverses institutions"
+  description: "Formation en psychologie clinique à l'UCL, spécialisation ACP (Approche Centrée sur la Personne). Psychologue clinicienne agréée inscrite à la Commission des Psychologues. Consultations à Overijse.",
+  keywords: ["formation psychologie UCL", "psychologue clinicien agréé", "commission des psychologues", "ACP formation", "psychologue overijse", "agrément fédération wallonie bruxelles"],
+  openGraph: {
+    title: "Formation professionnelle en psychologie - Eléonore Gyselynck",
+    description: "Formation en psychologie clinique à l'UCL, spécialisation ACP. Psychologue clinicienne agréée inscrite à la Commission des Psychologues.",
+    images: [
+      {
+        url: '/assets/images/study.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Formation en psychologie clinique',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/formation',
+  },
 };
 
 function EducationPage() {
   return (
     <div className='flex flex-col xl:w-[70%] mx-auto'>
+      <ClientBreadcrumb />
       <div className='relative mt-20 lg:w-[70%] m-auto'>
         <LeafImage src="assets/images/study.jpg" alt="Photo d'Éléonore Gyselynck" />
         <div className='lg:absolute lg:top-32 lg:left-60'>

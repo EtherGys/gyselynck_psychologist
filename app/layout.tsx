@@ -9,11 +9,61 @@ import { GoogleTagManager } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Eléonore Gyselynck | Consultation en psychologie, psychologue clinicienne agréée",
-  description: "Consultations à Overijse et en ligne",
-  
+  title: {
+    default: "Eléonore Gyselynck | Psychologue clinicienne agréée à Overijse",
+    template: "%s | Eléonore Gyselynck - Psychologue"
+  },
+  description: "Consultations psychologiques à Overijse et en ligne. Psychologue clinicienne agréée spécialisée dans l'accompagnement des adultes et adolescents. Approche centrée sur la personne.",
+  keywords: ["psychologue", "overijse", "adolescent", "adulte", "certifié", "consultation psychologique", "thérapie", "accompagnement", "psychologie"],
+  authors: [{ name: "Eléonore Gyselynck" }],
+  creator: "Eléonore Gyselynck",
+  publisher: "Eléonore Gyselynck",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://eleonore-gyselynck-psychologue.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'fr_BE',
+    url: 'https://eleonore-gyselynck-psychologue.com',
+    title: 'Eléonore Gyselynck | Psychologue clinicienne agréée à Overijse',
+    description: 'Consultations psychologiques à Overijse. Psychologue clinicienne agréée spécialisée dans l\'accompagnement des adultes et adolescents.',
+    siteName: 'Eléonore Gyselynck - Psychologue',
+    images: [
+      {
+        url: '/assets/images/consultation.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Consultation psychologique avec Eléonore Gyselynck',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Eléonore Gyselynck | Psychologue clinicienne agréée à Overijse',
+    description: 'Consultations psychologiques à Overijse et en ligne. Psychologue clinicienne agréée spécialisée dans l\'accompagnement des adultes et adolescents.',
+    images: ['/assets/images/consultation.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'AFTCKecJ0K8dkJRPUjHe4y_IuE0ESFLFQFDm8W0FQf8',
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -22,11 +72,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-          <meta name="description" content="Consultations à Overijse et en ligne"></meta>
-          <meta name="keywords" content="psychologue, overijse, adolescent, adulte, certifié" />
-      <meta name="google-site-verification" content="AFTCKecJ0K8dkJRPUjHe4y_IuE0ESFLFQFDm8W0FQf8" />
-      <GoogleTagManager gtmId="GTM-T4WZLGPH" />
-      <body className="">
+      <body className={inter.className}>
+        <GoogleTagManager gtmId="GTM-T4WZLGPH" />
         <Nav />
         {children}
         <BackToTop />
