@@ -72,8 +72,8 @@ export default function GoogleReviews() {
           {renderStars(Math.round(averageRating))}
         </div>
         <p className="text-gray-600">
-          Note moyenne : <span className="font-semibold">{averageRating.toFixed(1)}/5</span> 
-          basée sur <span className="font-semibold">{reviews.length}</span> avis
+          Note moyenne : <span className="font-semibold">{averageRating.toFixed(1)}/5 </span> 
+          basée sur <span className="font-semibold">{reviews.length +1}</span> avis
         </p>
       </div>
 
