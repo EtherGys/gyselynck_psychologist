@@ -5,6 +5,7 @@ import Nav from "@/components/layout/navbar/Nav";
 import Footer from "@/components/layout/footer/Footer";
 import BackToTop from "@/components/layout/button/BackToTop";
 import { GoogleTagManager } from '@next/third-parties/google'
+import { AnalyticsWrapper } from './analytics'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     locale: 'fr_BE',
     url: 'https://eleonore-gyselynck-psychologue.com',
     title: 'Eléonore Gyselynck | Psychologue clinicienne agréée à Overijse',
-    description: 'Consultations psychologiques à Overijse. Psychologue clinicienne agréée spécialisée dans l\'accompagnement des adultes et adolescents.',
+    description: 'Consultations psychologiques à Overijse et en ligne. Psychologue clinicienne agréée spécialisée dans l\'accompagnement des adultes et adolescents.',
     siteName: 'Eléonore Gyselynck - Psychologue',
     images: [
       {
@@ -78,6 +79,7 @@ export default function RootLayout({
         {children}
         <BackToTop />
         <Footer />
+        <AnalyticsWrapper />
       </body>
     </html>
   );

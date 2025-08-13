@@ -1,7 +1,6 @@
 import { ImageResponse } from 'next/og'
  
 export const runtime = 'edge'
- 
 export const alt = 'Eléonore Gyselynck - Psychologue clinicienne à Overijse'
 export const contentType = 'image/png'
 export const size = {
@@ -94,6 +93,17 @@ export default async function Image() {
             >
               Approche ACP
             </span>
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              bottom: '20px',
+              right: '20px',
+              fontSize: '14px',
+              opacity: 0.8,
+            }}
+          >
+            eleonore-gyselynck-psychologue.com
           </div>
         </div>
       </div>
