@@ -10,7 +10,7 @@ import React from "react";
 export const metadata: Metadata = {
   title: 'Prendre rendez-vous',
   description: "Prenez rendez-vous avec Eléonore Gyselynck, psychologue clinicienne à Overijse. Consultations en ligne et en cabinet. Contact : 0460 21 47 73. Prise de rendez-vous via Rosa.be",
-  keywords: ["prendre rendez-vous psychologue", "psychologue overijse", "consultation psychologique", "rosa.be", "contact psychologue", "adresse cabinet psychologue"],
+  keywords: ["prendre rendez-vous psychologue", "psychologue overijse", "psychologue la hulpe", "psychologue genval", "psychologue rixensart", "consultation psychologique", "rosa.be", "contact psychologue", "adresse cabinet psychologue", "psychologue la hulpe", "psychologue genval", "psychologue rixensart"],
   openGraph: {
     title: "Prendre rendez-vous - Eléonore Gyselynck",
     description: "Prenez rendez-vous avec Eléonore Gyselynck, psychologue clinicienne à Overijse. Consultations en ligne et en cabinet.",

@@ -134,7 +134,7 @@ export const advancedHomePageJsonLd = {
     "Dépression",
     "Difficultés relationnelles"
   ],
-  "keywords": "psychologue overijse, consultation psychologique, thérapie ACP, psychologue adolescent, psychologue adulte, approche centrée personne"
+  "keywords": "psychologue overijse, psychologue la hulpe, psychologue genval, psychologue rixensart, consultation psychologique, thérapie ACP, psychologue adolescent, psychologue adulte, approche centrée personne"
 }
 
 // Données structurées pour les FAQ

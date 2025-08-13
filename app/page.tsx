@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Accueil",
   description: "Bienvenue chez Eléonore Gyselynck, psychologue clinicienne agréée à Overijse. Consultations psychologiques pour adultes et adolescents. Approche centrée sur la personne et thérapie ACP.",
-  keywords: ["psychologue overijse", "consultation psychologique belgique", "thérapie adulte", "psychologue adolescent", "approche centrée personne", "ACP", "psychologue clinicien agréé", "overijse psychologue", "consultation psychologique bruxelles"],
+  keywords: ["psychologue overijse", "consultation psychologique belgique", "thérapie adulte", "psychologue adolescent", "approche centrée personne", "ACP", "psychologue clinicien agréé", "overijse psychologue", "consultation psychologique bruxelles", "psychologue la hulpe", "psychologue genval", "psychologue rixensart"],
   openGraph: {
     title: "Eléonore Gyselynck - Psychologue clinicienne à Overijse",
     description: "Consultations psychologiques pour adultes et adolescents. Approche centrée sur la personne et thérapie ACP.",

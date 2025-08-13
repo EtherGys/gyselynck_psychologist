@@ -9,7 +9,7 @@ import React from 'react'
 export const metadata: Metadata = {
   title: 'Formation professionnelle en psychologie',
   description: "Formation en psychologie clinique à l'UCL, spécialisation ACP (Approche Centrée sur la Personne). Psychologue clinicienne agréée inscrite à la Commission des Psychologues. Consultations à Overijse.",
-  keywords: ["formation psychologie UCL", "psychologue clinicien agréé", "commission des psychologues", "ACP formation", "psychologue overijse", "agrément fédération wallonie bruxelles"],
+  keywords: ["formation psychologie UCL", "psychologue clinicien agréé", "commission des psychologues", "ACP formation", "psychologue overijse", "agrément fédération wallonie bruxelles", "psychologue la hulpe", "psychologue genval", "psychologue rixensart"],
   openGraph: {
     title: "Formation professionnelle en psychologie - Eléonore Gyselynck",
     description: "Formation en psychologie clinique à l'UCL, spécialisation ACP. Psychologue clinicienne agréée inscrite à la Commission des Psychologues.",
