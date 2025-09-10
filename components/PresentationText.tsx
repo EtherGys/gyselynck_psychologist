@@ -26,7 +26,10 @@ function PresentationText() {
                     </h1>
                     <div className='text-center'>
                         <h2 className='mb-6 sm:text-2xl'>
-                            Consultations à Overijse et en ligne
+                                 Consultations à Overijse dans mon cabinet, au  &nbsp;
+                                <a target='_blank' href="https://centremergences.be/nos-therapeutes/gyselynck-eleonore" className=' underline'>
+                            CentrEmergences
+                        </a> (Louvain-La-Neuve) et en visioconférence
                         </h2>
                     </div>
                 </div>

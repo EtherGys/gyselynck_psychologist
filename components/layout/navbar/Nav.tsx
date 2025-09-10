@@ -22,7 +22,10 @@ function Nav() {
                         <p className="self-center text-xl font-semibold">Psychologue clinicienne agréée</p>
                     </a>
                     <div className="flex items-center space-x-6 rtl:space-x-reverse">
-                        <GreenBorderButton target='_blank' href="https://rosa.be/fr/hp/eleonore-gyselynck/" content='Prendre rendez-vous'/>
+                        <GreenBorderButton target='_blank' href="https://rosa.be/fr/hp/eleonore-gyselynck/" 
+                        content='Prendre rendez-vous (Overijse)'/>
+                        <GreenBorderButton target='_blank' href="https://centremergences.be/nos-therapeutes/gyselynck-eleonore" 
+                        content='Prendre rendez-vous (Louvain-La-Neuve)'/>
                         <a  href="tel:0460214773">
                         <button type="button" className="py-4 px-8  flex flex-row text-white bg-[#9CCC65] hover:bg-[#BBE090] focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm text-center me-2 mb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
